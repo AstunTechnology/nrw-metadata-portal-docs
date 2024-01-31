@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'nrw-metadata-portal-docs'
+project = 'Natural Resources Wales Metadata'
 copyright = '2024, Astun Technology and Natural Resources Wales'
 author = 'Astun Technology and Natural Resources Wales'
 release = '0.0'
