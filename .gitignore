@@ -4,5 +4,3 @@ include
 lib64
 docs/_build
 pyvenv.cfg
-docs/Makefile
-docs/make.bat
