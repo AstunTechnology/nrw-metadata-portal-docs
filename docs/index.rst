@@ -27,9 +27,23 @@ Welcome to Natural Resources Wales Metadata catalog documentation
 
    adminguidance
 
+.. _privacy:
+.. toctree::
+   :maxdepth: 2
+   :caption: Privacy Statement
+
+   privacy
+
 .. _licence:
 .. toctree::
    :maxdepth: 2
    :caption: Licensing
 
    licence
+
+.. _accessibility:
+.. toctree::
+   :maxdepth: 2
+   :caption: Accessibility Statement
+
+   accessibility
