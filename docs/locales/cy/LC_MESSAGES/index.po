@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Astun Technology and Natural Resources Wales
+# This file is distributed under the same license as the Natural Resources
+# Wales Metadata package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Natural Resources Wales Metadata \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-28 16:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: cy\n"
+"Language-Team: cy <LL@li.org>\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 1 : n==2 ? 2 : n==3 ? 3 : n==6 ?"
+" 4 : 0);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../index.rst:13
+msgid "User Documentation"
+msgstr ""
+
+#: ../../index.rst:24
+msgid "Admin Documentation"
+msgstr ""
+
+#: ../../index.rst:31
+msgid "Privacy Statement"
+msgstr ""
+
+#: ../../index.rst:38
+msgid "Licensing"
+msgstr ""
+
+#: ../../index.rst:45
+msgid "Accessibility Statement"
+msgstr ""
+
+#: ../../index.rst:7
+msgid "Welcome to Natural Resources Wales Metadata catalog documentation"
+msgstr ""
+
+#: ../../index.rst:9
+msgid ":ref:`user-docs`"
+msgstr ""
+
+#: ../../index.rst:10
+msgid ":ref:`admin-docs`"
+msgstr ""
+

@@ -1,0 +1,411 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Astun Technology and Natural Resources Wales
+# This file is distributed under the same license as the Natural Resources
+# Wales Metadata package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Natural Resources Wales Metadata \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-28 16:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: cy\n"
+"Language-Team: cy <LL@li.org>\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 1 : n==2 ? 2 : n==3 ? 3 : n==6 ?"
+" 4 : 0);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../UserDoc_Chap4_Create.rst:2
+msgid "Creating Discovery Metadata"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:4
+msgid ""
+"This section will guide the user through the process of creating "
+"discovery metadata records in the `Natural Resources Wales Metadata "
+"catalog <https://metadata.naturalresources.wales/geonetwork>`__. "
+"Discovery metadata can be added to the portal by `importing an existing "
+"metadata <#import-existing-metadata>`__ XML file, `creating a new record "
+"from a template <#creating-metadata-from-a-template>`__, `duplicating an "
+"existing record <#duplicating-existing-metadata>`__, or `harvesting "
+"records <#harvesting-metadata>`__ from other metadata portals."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:9
+msgid "Importing existing metadata"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:11
+msgid "To import an existing XML metadata record:"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:13
+msgid ""
+"**1|** Click the |button_contribute| button in the header menu and choose"
+" |button_contribute_import|. This will take the user to the **Import new "
+"records** menu board."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:130
+msgid "button_contribute"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:131
+msgid "button_contribute_import"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:15
+msgid ""
+"**2|** Select where to import the record from. Options are from your "
+"computer (default), a URL, by copy/paste, or from a server."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:17
+msgid "**3|** Select **Metadata** from the type of record dropdown."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:19
+msgid ""
+"**4|** Indicate how the unique identifier for the record (UUID) should be"
+" treated. If you are uploading in order to refine or change an existing "
+"record, then choose the **Overwrite metadata with the same UUID** option."
+" If you are uploading to create a new metadata record then choose the "
+"**Generate UUID for inserted metadata** option. If the XML contains a "
+"UUID that does not already exist on the portal but you would like to keep"
+" this UUID then the **None** option should be selected."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:21
+msgid ""
+"*Note: The UUID is a generated automatically by whatever internal system "
+"(i.e. ESRI ArcGIS) was used to write and manage your metadata. In xml, it"
+" can be found at the top of the page under the file identifier section. "
+"Within the portal, the UUID or File Identifier can be found at the bottom"
+" of the metadata record display. This UUID, together with the metadata "
+"date stamp, are used to ensure records are unique within* `Natural "
+"Resources Wales Metadata catalog "
+"<https://metadata.naturalresources.wales/geonetwork>`__, `data.gov.uk "
+"<http://data.gov.uk/>`__ *and other metadata catalogues.*"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:23
+msgid ""
+"**5|** Under the **Apply XSLT conversion** menu, select the appropriate "
+"translation to convert the metadata to the UK Gemini format."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:25
+msgid ""
+"*Note: For an xml file that is already in Gemini 2.3 format and "
+"recognised as such *the* **Apply XSLT conversion** *option can be set to "
+"'None'. Select 'GEMINI 2.2 to GEMINI 2.3' to convert an existing Gemini "
+"2.2 record to 2.3, select 'ESRI to GEMINI 2.3 to convert records created "
+"using the ESRI ArcGIS platform. Users providing data in MEDIN format "
+"should select the MEDIN to GEMINI conversion.*"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:27
+msgid "**6|** Optionally, select whether to validate the record on import."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:29
+msgid ""
+"*Note: it is recommended that the validate option be left un-ticked, and "
+"users perform a validation of the record after import. If the validation "
+"option is ticked and an error is found, the record will fail to import.*"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:31
+msgid "**7|** Optionally, select whether to publish the record on import."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:33
+msgid "**8|** Assign the record to a user group."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:35
+msgid ""
+"**9|** Assign the record to the appropriate licence type (i.e. OGL, NCGL,"
+" INSPIRE or other). This will allow for filtered searching based on the "
+"licence conditions."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:37
+msgid ""
+"*Note: Licence types can also be amended at a later date. See* `assigning"
+" a licence category <UserDoc_Chap5_Edit.html#assigning-a-licence-"
+"category>`__."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:39
+msgid "**10|** Click the |button_contribute_importconfirm| button."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:132
+msgid "button_contribute_importconfirm"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:41
+msgid "|userdoc_fig_5_1_1_ImportMetadata|"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:126
+msgid "userdoc_fig_5_1_1_ImportMetadata"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:43
+msgid "**Figure 5.1.1:** Importing an existing XML metadata record"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:45
+msgid ""
+"When the import operation has finished, an **Import Report** will be "
+"displayed on the right-hand side of the screen, indicating whether or not"
+" the import has been successful. Following a successful import, users "
+"should verify that their records are valid. Consult the `Validating "
+"metadata <UserDoc_Chap5_Edit.html#validating-metadata>`__ section for "
+"details. Amendments to the record may be required to make it fully Gemini"
+" compliant."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:50
+msgid "Creating metadata from a template"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:52
+msgid ""
+"Basic templates are available for users to create metadata directly in "
+"the `Natural Resources Wales Metadata catalog "
+"<https://metadata.naturalresources.wales/geonetwork>`__."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:54
+msgid "To create a metadata record using an available template:"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:56 ../../UserDoc_Chap4_Create.rst:84
+#: ../../UserDoc_Chap4_Create.rst:110
+msgid "**1|** Click the |button_contribute| button in the header menu."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:58 ../../UserDoc_Chap4_Create.rst:86
+msgid ""
+"**2|** Click the |button_editor_board| button. This will enable the "
+"**Editor** board, where all records the user has access to will be "
+"listed."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:139
+msgid "button_editor_board"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:60
+msgid "**3|** Click the |button_contribute_addrecord| button."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:133
+msgid "button_contribute_addrecord"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:62
+msgid ""
+"**4|** Choose the type of record to be created based on the type of "
+"resource that is being documented, i.e. a dataset, series or service "
+"record. When selected available templates for that type are displayed."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:64
+msgid ""
+"*Note: templates for dataset and service metadata are slightly different."
+" Metadata for a service has extra elements for the spatial data service "
+"type (i.e. view, download, etc.) and for coupled resources. You must "
+"choose the correct template for the type of record being documented as it"
+" is not possible to change once the record has been created.*"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:66
+msgid "**5|** Click on the template to be used."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:68
+msgid ""
+"**6|** Click the |button_contribute_create| button to create the new "
+"record. This will automatically take the user to the editing view where "
+"elements of the new record can be modified. See `Editing a metadata "
+"record <UserDoc_Chap5_Edit.html#editing-metadata>`__ for guidance on "
+"documenting the resource."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:134
+msgid "button_contribute_create"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:70
+msgid ""
+"*Note: if the user is an editor for multiple groups or an administrator "
+"to the site, they may be presented with multiple templates of the same "
+"name. Additionally, they will be required to select which group to assign"
+" the metadata record to.*"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:72
+msgid "|userdoc_fig_5_2_1_CreateTemplate|"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:127
+msgid "userdoc_fig_5_2_1_CreateTemplate"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:74
+msgid "**Figure 5.2.1:** Creating a metadata record from a template"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:77
+msgid "Duplicating existing metadata"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:79
+msgid ""
+"One of the easiest ways to create metadata on the portal is to duplicate "
+"an existing record. This is particularly useful for organisations where "
+"many of the metadata elements are the same for all records (e.g. points "
+"of contact, etc.)"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:82
+msgid "To create a metadata record by duplicating an existing record:"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:88
+msgid ""
+"**3|** Click the duplicate icon (|button_contribute_duplicate|) next to "
+"the record name."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:135
+msgid "button_contribute_duplicate"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:90
+msgid ""
+"**4|** Click the |button_contribute_create| button to create the new "
+"record. This will automatically take the user to the **Editor** board "
+"where elements of the new record can be modified. See `Editing a metadata"
+" record <UserDoc_Chap5_Edit.html#editing-metadata>`__ for guidance on "
+"documenting the resource."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:92
+msgid ""
+"*Note: if the user is an editor for multiple groups or an administrator "
+"to the site, they will be required to select which group to assign the "
+"duplicate metadata record to.*"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:94
+msgid "|userdoc_fig_5_3_1_Duplicate|"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:128
+msgid "userdoc_fig_5_3_1_Duplicate"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:96
+msgid "**Figure 5.3.1:** Duplicating an existing metadata record"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:99
+msgid "Harvesting metadata"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:101
+msgid ""
+"`Natural Resources Wales Metadata "
+"<https://metadata.naturalresources.wales/geonetwork>`__ has the "
+"capability to automatically consume metadata from external services on a "
+"scheduled basis. Organisations that maintain their own spatial data "
+"portals which are interested in having their records automatically "
+"harvested should contact `Natural Resources Wales "
+"<mailto:opendata@cyfoethnaturiolcymru.gov.uk>`__."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:104
+msgid "Creating directory metadata"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:106
+msgid ""
+"Directory records are a means of automatically populating fields such as "
+"those for the point of contact section of a metadata record with pre-"
+"written values. This is useful if you have to create multiple records "
+"that share the same point of contact."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:108
+msgid "To create a directory entry:"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:112
+msgid ""
+"**2|** Click the |button_contribute_managedirectory| from the contribute "
+"drop down. This will bring the user to the manage directories page."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:136
+msgid "button_contribute_managedirectory"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:114
+msgid ""
+"**3|** On the entries tab are previously created directory entries. Under"
+" the **Actions** drop menu of each record, users can choose to edit or "
+"duplicate an existing record. Alternately, users can create a blank "
+"directory entry using a template by first clicking on the **Templates** "
+"tab, and then choosing duplicate from the **Actions** menu of the "
+"'TEMPLATE TO DUPLICATE' entry."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:116
+msgid ""
+"**4|** Amend the entry as appropriate and click "
+"|button_contribute_savedirectory| to save changes."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:138
+msgid "button_contribute_savedirectory"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:118
+msgid "**5|** Click |button_contribute_saveclosedirectory| to save and exit."
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:137
+msgid "button_contribute_saveclosedirectory"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:120
+msgid ""
+"*Note: The individual name field is not mandatory for the UK Gemini "
+"standard, however, for directories it can be used to identify "
+"teams/business areas if you have a number of different contact details "
+"within an organisation (e.g. GIS, Planning, etc.)*"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:122
+msgid "|userdoc_fig_5_5_1_DirectoryEntry|"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:129
+msgid "userdoc_fig_5_5_1_DirectoryEntry"
+msgstr ""
+
+#: ../../UserDoc_Chap4_Create.rst:124
+msgid "**Figure 5.5.1:** Creating a directory entry"
+msgstr ""
+

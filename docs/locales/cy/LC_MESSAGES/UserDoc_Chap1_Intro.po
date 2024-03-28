@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Astun Technology and Natural Resources Wales
+# This file is distributed under the same license as the Natural Resources
+# Wales Metadata package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Natural Resources Wales Metadata \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-28 16:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: cy\n"
+"Language-Team: cy <LL@li.org>\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 1 : n==2 ? 2 : n==3 ? 3 : n==6 ?"
+" 4 : 0);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../UserDoc_Chap1_Intro.rst:2
+msgid "Metadata Basics"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:5
+msgid "What is metadata?"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:7
+msgid ""
+"Metadata is essentially information about data.  It describes, among "
+"other things,  who collected it, why it was collected, the methods used "
+"to collect it and how it can be used.  Metadata provides all the "
+"information a data user needs to assess whether the data resource is fit "
+"for use. Metadata allows users to:"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:9
+msgid "Know who created the data and for what purpose"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:10
+msgid "Know when the data was created"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:11
+msgid "Know the geographic extent or coverage of the data (for geospatial data)"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:12
+msgid "Understand how the data was created and manipulated"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:13
+msgid "Understand the limitations of the data with respect to use"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:14
+msgid "Understand any legal limitations to access and use of the data"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:15
+msgid "Determine tools needed to view, manipulate, and use the data"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:16
+msgid "Know how to access the data"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:18
+msgid ""
+"Metadata is important to both the dataset provider and other potential "
+"users. High quality metadata allows dataset owners to keep an inventory "
+"of datasets they have created, with the ability to locate the data and "
+"recall the circumstances and context under which it was created and "
+"analysed. When publicly available, metadata enables other interested "
+"parties the ability to discover, understand and use the data to its "
+"fullest potential."
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:22
+msgid "What are metadata standards?"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:24
+msgid ""
+"A metadata standard is a specification which establishes a common "
+"understanding of the meaning (or semantics) of data, to ensure correct "
+"and proper use and interpretation by its owners and users. Many standards"
+" begin as schemas, which group metadata elements into sets designed for a"
+" specific purpose (e.g. for geospatial data) to enable the best possible "
+"description of a data resource in that context. For every element the "
+"name and semantics are specified, along with any rules on how content "
+"must be formulated and represented, and where element values are to be "
+"identified from controlled lists."
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:26
+msgid ""
+"The development of such schemas tends to be controlled through community "
+"consensus combined with a formal processes for submission, approval and "
+"publishing of new elements. Schemas that are developed and maintained by "
+"standards organisations (e.g. ISO) or organisations that have taken on "
+"such responsibility (e.g. Dublin Core Metadata Initiative) are called "
+"metadata standards."
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:28
+msgid ""
+"The UK Geospatial Metadata Interoperability Initiative (`GEMINI "
+"<https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini>`__ ) is"
+" the UK’s geographic metadata standard. It was originally produced "
+"through a collaboration between the Association for Geographic "
+"Information (AGI), the e-Government Unit (eGU) and the UK Data Archive. "
+"An application profile of ISO 19115, UK GEMINI is conformant with the "
+"INSPIRE Technical Guidance and designed to meet the requirements of "
+"INSPIRE in a UK context."
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:32
+msgid "Why create metadata?"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:34
+msgid ""
+"Metadata adds significant value to any organisation’s data holdings, and "
+"failure to create it can lead to hidden costs generated at a later date. "
+"Undocumented data soon loses its value as staff change and institutional "
+"knowledge is lost. Subsequent staff with little understanding of the "
+"contents and use of the data and may lose confidence in results generated"
+" by it."
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:36
+msgid ""
+"Beyond the individual organisation, data resources are a major national "
+"asset. Information of what data resources exist within different "
+"organisations, particularly within the public sector, is required to "
+"improve efficiencies and reduce data duplication. Metadata standards "
+"enable interoperability between organisations and platforms. Metadata "
+"from a variety of sources can be integrated into other technical systems "
+"or machine read by compatible ones. Adoption of metadata standards "
+"greatly increases the potential for data discoverability."
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:38
+msgid ""
+"Data can only be useful if it can be interpreted and understood, and can "
+"only be used if it can be found. Creating and maintaining standard "
+"compliant metadata secures the financial investment that organisations "
+"put into data by:"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:40
+msgid "Retaining institutional knowledge"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:41
+msgid "Enabling better decision making through the use of appropriate data"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:42
+msgid "Avoiding costly duplication of effort through lack of knowledge about data"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:43
+msgid "Minimising the risk of unintentional use through good documentation"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:44
+msgid "Increasing the value of data by unlocking its potential for re-use"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:45
+msgid "Supporting collaboration through discoverability and simplified access"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:46
+msgid "Inspiring trust in the data source"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:48
+msgid ""
+"When effort and resource is put into the provision of standard compliant "
+"metadata, organisations will be better placed to find, assess and make "
+"use of the data that is available to them – particularly in times of "
+"national emergency - saving time, money and lives."
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:52
+msgid "Why use UK Gemini?"
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:54
+msgid ""
+"`UK GEMINI <https://www.agi.org.uk/agi-groups/standards-committee/uk-"
+"gemini>`__ is the designated standard for geographic metadata in the "
+"United Kingdom. It ensures consistency with respect to metadata across "
+"the UK through content guidance and the use of UK specific terms and code"
+" lists. UK Gemini also  simplifies the INSPIRE Technical Guidance making "
+"it easier for organisations to achieve compliance."
+msgstr ""
+
+#: ../../UserDoc_Chap1_Intro.rst:56
+msgid ""
+"While ensured compliance to regulations is important, the key benefit is "
+"the interoperability the standard allows across a range of platforms. "
+"Metadata in the Gemini format can be shared and consumed easily by a "
+"number of platforms and third party applications. Gemini is a requirement"
+" for the data.gov.uk portal and, with version 2.3, can now be consumed by"
+" the ESRI ArcGIS platform without the need of additional plugins."
+msgstr ""
+
