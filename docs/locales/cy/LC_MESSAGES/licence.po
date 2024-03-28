@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Astun Technology and Natural Resources Wales
+# This file is distributed under the same license as the Natural Resources
+# Wales Metadata package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Natural Resources Wales Metadata \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-28 16:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: cy\n"
+"Language-Team: cy <LL@li.org>\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 1 : n==2 ? 2 : n==3 ? 3 : n==6 ?"
+" 4 : 0);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../licence.rst:2
+msgid "Documentation Licence"
+msgstr ""
+
+#: ../../licence.rst:4
+msgid ""
+"© Crown copyright 2024. You may use or re-use this documentation (not "
+"including logos) free of charge in any format or medium, under the terms "
+"of the Open Government Licence 3.0. See `www.nationalarchives.gov.uk/doc"
+"/open-government-licence <https://www.nationalarchives.gov.uk/doc/open-"
+"government-licence/version/3/>`__."
+msgstr ""
+
+#: ../../licence.rst:7
+msgid "Attribution"
+msgstr ""
+
+#: ../../licence.rst:10
+msgid ""
+"When you use this information under the Open Government Licence, you "
+"should include the following attribution:"
+msgstr ""
+
+#: ../../licence.rst:12
+msgid ""
+"Natural Resources Wales Metadata Portal Documentation, Natural Resources "
+"Wales and Astun Technology, 2024, licensed under the Open Government "
+"Licence `www.nationalarchives.gov.uk/doc/open-government-licence "
+"<https://www.nationalarchives.gov.uk/doc/open-government-"
+"licence/version/3/>`__."
+msgstr ""
+

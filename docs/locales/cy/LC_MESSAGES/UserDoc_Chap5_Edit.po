@@ -1,0 +1,864 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Astun Technology and Natural Resources Wales
+# This file is distributed under the same license as the Natural Resources
+# Wales Metadata package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Natural Resources Wales Metadata \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-28 16:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: cy\n"
+"Language-Team: cy <LL@li.org>\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 1 : n==2 ? 2 : n==3 ? 3 : n==6 ?"
+" 4 : 0);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../UserDoc_Chap5_Edit.rst:2
+msgid "Editing Metadata"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:4
+msgid ""
+"This section will guide the user through editing a metadata record on "
+"`spatialdata.gov.scot <https://www.spatialdata.gov.scot>`__, compliant to"
+" the `UK Gemini standard <https://www.agi.org.uk/agi-groups/standards-"
+"committee/uk-gemini>`__. In most cases, the basic functionality provided "
+"by the *default view* of an editing sessions will be sufficent for the "
+"users need, however, in some instances additional functionality from the "
+"*advanced view* may be required."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:9
+msgid "Starting an editing session"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:11
+msgid ""
+"Users will be able to edit any records they have contributed to the "
+"portal, or if they have appropriate privileges to edit records submitted "
+"by others (e.g. administrators)."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:14
+msgid "To begin an editing session:"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:16
+msgid "**1|** Sign in using your account credentials."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:18
+msgid ""
+"**2|** Either search for a particular record direct from the home page or"
+" click |button_contribute| in the header and select |button_editor_board|"
+" to open the **Editor** board and search or scroll for the record."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:305
+msgid "button_contribute"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:333
+msgid "button_editor_board"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:20
+msgid ""
+"*Note: if the 'only my records' box at the top left of the Editor board "
+"is checked, this will limit the record list to only those belonging to "
+"that user.*"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:22
+msgid ""
+"**3|** Click the pencil icon (|button_contribute_pencil|) visible in the "
+"search results list, or next to the record name on the **Editor** board. "
+"This will enter the user into an editing session."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:306
+msgid "button_contribute_pencil"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:24
+msgid ""
+"*Note: users can also start an editing session from the record view page "
+"by clicking* |button_view_edit| *at the top of the page.*"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:328
+msgid "button_view_edit"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:27
+msgid "Editing basics"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:29
+msgid ""
+"Once in an editing session, the user is presented with the simple "
+"*default* editing view. In the header menu, buttons are available for "
+"modifying the categories, group that the record belongs to, validation, "
+"cancelling the edit session, and saving the record. On the right side of "
+"the page, the `Associated resources <#associated-resources>`__ panel is "
+"visible, showing all related online resources and service records related"
+" to the record being edited."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:34
+msgid ""
+"The form displays the metadata elements grouped into relevant sections. "
+"The user can navigate through the form using the *table of contents* "
+"visible in the lower right of the screen (click |button_edit_toc| to "
+"display). Clicking an element section will take the user to the relevant "
+"section of the form. The user can collapse all elements of the form by "
+"clicking the |button_edit_collapse| button visible just below the header."
+" Clicking on a section title will re-expand that section. The "
+"|button_edit_arrowup| and |button_edit_arrowdown| buttons allow the user "
+"to place the section further up or down the document order. Note that UK "
+"Gemini is only concerned with whether the elements (or sections) are "
+"present and correct, not with the order they are displayed."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:307
+msgid "button_edit_toc"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:308
+msgid "button_edit_collapse"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:310
+msgid "button_edit_arrowup"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:309
+msgid "button_edit_arrowdown"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:40
+msgid ""
+"Mandatory fields are highlighted with a red asterisk. Note that for sub-"
+"elements, this only indicates that the sub-element is mandatory within "
+"its context. For example, the vertical extent is an optional element, but"
+" if the record requires one, then the minimum and maximum values are "
+"mandatory."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:44
+msgid ""
+"Where a |button_edit_plus| button is displayed, the user can click this "
+"to add another occurrence of an element or section. For example, a record"
+" could have more than one alternative title. When the user hovers over a "
+"section and a |button_edit_delete| appears, clicking the cross will "
+"delete that element or section."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:311
+msgid "button_edit_plus"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:312
+msgid "button_edit_delete"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:48
+msgid "|userdoc_fig_6_2_1_DefaultEdit|"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:294
+msgid "userdoc_fig_6_2_1_DefaultEdit"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:50
+msgid "**Figure 6.2.1:** The default view of the editing session interface"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:53
+msgid "Changing the editing view"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:55
+msgid ""
+"Sometimes it will be necessary for the user to change the view to enable "
+"additional functionality. For example, to add a new occurrence of an "
+"element when the |button_edit_plus| is not visible in the default view."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:58
+msgid "To change the view of editing session:"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:60
+msgid "**1|** Click on |button_edit_view| on the top right of the editing board."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:313
+msgid "button_edit_view"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:62
+msgid ""
+"**2|** From the dropdown menu, choose either Default, Advanced or XML. "
+"Advanced (full) view is a more detailed version of the default (simple) "
+"view, where as XML view allows the user to edit the raw XML."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:64
+msgid "*Note: users can also enable tool tips from the view menu.*"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:66
+msgid "|userdoc_fig_6_3_1_AdvancedEdit| |userdoc_fig_6_3_1_XMLEdit|"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:295
+msgid "userdoc_fig_6_3_1_AdvancedEdit"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:296
+msgid "userdoc_fig_6_3_1_XMLEdit"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:68
+msgid "**Figure 6.3.1:** Advanced editing and XML view"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:71
+msgid "Assigning a licence category"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:73
+msgid ""
+"Records can be classified based on their licence type (i.e. Open "
+"Government, Non-commercial Government, INSPIRE or other) using the assign"
+" category function. This classification can be done either in an editing "
+"session, via the contribute board, or when a record is imported into the "
+"`Natural Resources Wales Metadata catalog "
+"<https://metadata.naturalresources.wales/geonetwork>`__."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:77
+msgid "To assign or change the licence category in an editing session:"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:79
+msgid "**1|** Click on |button_edit_category| in the header."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:314
+msgid "button_edit_category"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:81
+msgid ""
+"**2|** From the dropdown menu, check the appropriate licence type (Open "
+"Government, Non-commercial, INSPIRE or other)."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:83
+msgid "**3|** Click anywhere to dismiss the menu."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:85
+msgid "|userdoc_fig_6_4_1_LicenceCategory|"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:297
+msgid "userdoc_fig_6_4_1_LicenceCategory"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:87
+msgid "**Figure 6.4.1:** Assigning a licence category in an editing session"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:89
+msgid "To assign or change the licence category via the contribute board:"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:91 ../../UserDoc_Chap5_Edit.rst:228
+#: ../../UserDoc_Chap5_Edit.rst:270
+msgid "**1|** Click on |button_contribute| in the header."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:93 ../../UserDoc_Chap5_Edit.rst:230
+#: ../../UserDoc_Chap5_Edit.rst:272
+msgid ""
+"**2|** Click the |button_editor_board| button. This will enable the "
+"**Editor** board, where all records the user has access to will be "
+"listed."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:95
+msgid ""
+"**3|** In the record list, select the record(s) for which the licence "
+"category will assigned or amended."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:97
+msgid ""
+"*Note: the licence category can be updated for multiple records at a "
+"time.*"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:99
+msgid ""
+"**4|** Click the dropdown labelled 'selected' at the top left of the "
+"record list and choose 'Update licence' from the list. This will display "
+"the licence categories dialog."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:101
+msgid ""
+"**5|** From the menu, check the appropriate licence type (Open "
+"Government, Non-commercial, INSPIRE or other)."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:103
+msgid "**6|** Click |button_contribute_replace| to apply the changes."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:315
+msgid "button_contribute_replace"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:105
+msgid ""
+"The licence category can also be assigned using the appropriate option "
+"when importing a record. For those organisations which harvest their "
+"metadata records into the portal, a default licence type can be selected "
+"for all records, though any records that differ from the default setting "
+"would need to be amended post harvest."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:110
+msgid "Associated resources"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:112
+msgid ""
+"The Associated Resources panel allows users to add online resources to "
+"their metadata and create relationships between dataset and service "
+"records (i.e. coupled resources). When in an editing session, the "
+"associated resources panel can be found at the top right of the page."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:115
+msgid ""
+"To add an online resource to *dataset* metadata where a corresponding "
+"*service* record exists:"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:117 ../../UserDoc_Chap5_Edit.rst:139
+msgid ""
+"**1|** Click on the |button_edit_addassocresource| button at the top of "
+"the Associated Resources panel."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:316
+msgid "button_edit_addassocresource"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:119
+msgid ""
+"**2|** From the dropdown menu select 'Link to a service'. This will "
+"display the Link resources dialog."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:121
+msgid ""
+"**3|** Search using the free text box and click on the service record in "
+"the results list to select it (when selected it will be highlighted in "
+"blue)."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:123
+msgid ""
+"**4|** This will display the layers available in the service. Click on "
+"the appropriate layer to select it (when selected it will be highlighted "
+"in green)."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:125
+msgid ""
+"**5|** Click on the |button_edit_linkservice| to link the service to the "
+"dataset metadata. This creates a link between the dataset and service "
+"records and adds an online resource element to the dataset record."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:318
+msgid "button_edit_linkservice"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:127
+msgid ""
+"**6|** If required, amendments can be made by clicking on the pencil icon"
+" beside the newly added online resource in the associated resources "
+"panel. Alternately scroll to the element in the main editing board and "
+"amend manually."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:129
+msgid "**7|** Click |button_edit_updatelink|."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:317
+msgid "button_edit_updatelink"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:131
+msgid ""
+"*Note: For web services (i.e. WMS and WFS) to correctly display in the "
+"map, you must ensure that the protocol and layer name are correctly "
+"entered for the online resource. For dataset records the URL for for a "
+"WMS or WFS should* **not** *include the GetCapabilities request. While "
+"these elements are not required for Gemini compliance, the are needed to "
+"enable previewing on the map.*"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:133
+msgid "|userdoc_fig_6_5_1_AssocDatasetService|"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:298
+msgid "userdoc_fig_6_5_1_AssocDatasetService"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:135
+msgid ""
+"**Figure 6.5.1:** Adding an online resource to a dataset by associating "
+"with a service record"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:137
+msgid ""
+"To add an online resource to *dataset* metadata where **no** "
+"corresponding *service* record exists:"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:141 ../../UserDoc_Chap5_Edit.rst:163
+msgid ""
+"**2|** From the dropdown menu, select the first option, 'Link and online "
+"resource'. This will display the Link resources dialog."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:143 ../../UserDoc_Chap5_Edit.rst:165
+msgid "**3|** Ensure the 'Add online resource' radio button is clicked."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:145
+msgid ""
+"**4|** Add the URL to ensure it points at the service (e.g. "
+"www.mapdata.scot/ServiceName/MapServer/WMSServer?). For dataset records "
+"the URL for for a WMS or WFS should **not** include the GetCapabilities "
+"request."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:147
+msgid ""
+"**5|** Set the correct protocol for the service from the drop down (e.g. "
+"OGC-WMS Web Map Service). This will then display the layers available in "
+"the service."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:149
+msgid ""
+"**6|** Click on the appropriate layer to select it (it will highlight in "
+"green)."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:151 ../../UserDoc_Chap5_Edit.rst:175
+msgid "**7|** Click |button_edit_addlink|."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:319
+msgid "button_edit_addlink"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:153
+msgid ""
+"*Note: For web services (i.e. WMS and WFS) to correctly display in the "
+"map, you must ensure that the protocol and layer name are correctly "
+"entered for the online resource (steps 5 and 6 above). While these "
+"elements are not required for Gemini compliance, the are needed to enable"
+" previewing on the map.*"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:155
+msgid "|userdoc_fig_6_5_2_OnlineResourceDataset|"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:299
+msgid "userdoc_fig_6_5_2_OnlineResourceDataset"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:157
+msgid "**Figure 6.5.2:** Adding an online resource to a dataset record"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:159
+msgid ""
+"To add an online resource (e.g. WMS or WFS) to a *service* metadata "
+"record:"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:161
+msgid ""
+"**1|** Click on the |button_edit_addassocresource| at the top of the "
+"Associated Resources panel."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:167
+msgid ""
+"**4|** Select the appropriate protocol for the online resource (e.g. for "
+"a WMS, select OGC-WMS Capabilities service)"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:169
+msgid "**5|** Enter the URL for the service."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:171
+msgid ""
+"*Note: A service may contain multiple layers and these will be displayed "
+"when the service URL is entered. As this is a service record, it is not "
+"necessary to select a single layer to link to (this is only required for "
+"dataset records).*"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:173
+msgid "**6|** Optionally, provide a name and description for the resource."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:177
+msgid "|userdoc_fig_6_5_3_OnlineResourceService|"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:300
+msgid "userdoc_fig_6_5_3_OnlineResourceService"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:179
+msgid "**Figure 6.5.3:** Adding an online resource to a service record"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:182
+msgid "Validating metadata"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:184
+msgid ""
+"Once all elements for a new record have been completed or changes have "
+"been made to an existing record, it should be validated against the UK "
+"Gemini standard rules."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:187
+msgid "To validate a metadata record:"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:189
+msgid ""
+"**1|** In an editing session, click on the |button_edit_validate| button "
+"in the header bar."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:320
+msgid "button_edit_validate"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:191
+msgid ""
+"**2|** Errors will be highlighted in the validation panel. Click the red "
+"thumbs-down icon (|button_edit_thumbsdown|)to see details of the error(s)"
+" organised by schematron."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:322
+msgid "button_edit_thumbsdown"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:193
+msgid ""
+"**3|** Correct errors as necessary and repeat steps 1 and 2 until no "
+"errors are returned by the validator."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:195
+msgid ""
+"*Note: users can save an invalid record and return at a later date to "
+"correct.*"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:197
+msgid "|userdoc_fig_6_6_1_ValidationPanel|"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:301
+msgid "userdoc_fig_6_6_1_ValidationPanel"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:199
+msgid "**Figure 6.6.1:** Validation panel"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:201
+msgid ""
+"The validation check should be repeated once amendments have been made "
+"until no errors are detected."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:204
+msgid "Saving and exiting an editing session"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:206
+msgid ""
+"As the user works through the editing form, it is recommended that "
+"progress be saved periodically as the session will time-out after a "
+"period of inactivity."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:209
+msgid "To save a metadata record:"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:211
+msgid ""
+"**1|** Click |button_edit_save| to save the record and continue editing, "
+"or click |button_edit_saveclose| to save the record and exit the editing "
+"session."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:323
+msgid "button_edit_save"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:324
+msgid "button_edit_saveclose"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:213
+msgid "*OR*"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:215
+msgid ""
+"**1|** Click |button_edit_cancel| to exit the editing session without "
+"saving the record."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:325
+msgid "button_edit_cancel"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:217
+msgid ""
+"Users should note that a saved record will be stored on the server only "
+"(not locally). The server is periodically backed up, though it is "
+"recommended that users store master copies of their metadata records "
+"within their own systems. To export copies of metadata created on the "
+"portal, consult the `exporting metadata <UserDoc_Chap3_Viewing.html"
+"#exporting-metadata-records>`__ section."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:222
+msgid "Publishing metadata"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:224
+msgid ""
+"Once a metadata record has been successfully `validated <#validating-"
+"metadata>`__, it can then be published, making it publicly viewable and "
+"available for harvesting by other data portals, such as `data.gov.uk "
+"<http://data.gov.uk/>`__."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:226
+msgid "To publish a metadata record:"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:232 ../../UserDoc_Chap5_Edit.rst:274
+msgid "**3|** Locate the metadata record in the list below."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:234
+msgid ""
+"**4|** Click on the |button_contribute_locked| next to the record name to"
+" access the Privileges dialog."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:326
+msgid "button_contribute_locked"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:236
+msgid ""
+"**5|** To make publicly viewable, tick the 'Set all privileges' box next "
+"to the row marked 'All' in the group column."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:238
+msgid ""
+"**6|** Click on |button_contribute_replace| to update the privileges for "
+"the record."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:240
+msgid ""
+"Once the record is published, the padlock icon displayed on the Editor "
+"board should appear unlocked (|button_contribute_unlocked|)."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:327
+msgid "button_contribute_unlocked"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:242
+msgid "|userdoc_fig_6_8_1_PrivilegesPanel|"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:302
+msgid "userdoc_fig_6_8_1_PrivilegesPanel"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:244
+msgid "**Figure 6.8.1:** Publishing via the contribute page"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:246
+msgid ""
+"Alternatively, there is a shortcut method to publish a record directly "
+"from the record's page in the `Natural Resources Wales Metadata catalog "
+"<https://metadata.naturalresources.wales/geonetwork>`__:"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:248
+msgid ""
+"**1|** Click on the |button_view_managerecord| button at the top right of"
+" the record view."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:329
+msgid "button_view_managerecord"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:250
+msgid ""
+"**2|** From the dropdown menu, click on |button_view_publish| to publish "
+"the record."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:330
+msgid "button_view_publish"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:252
+msgid ""
+"*Note: the privileges dialog can also be accessed from this dropdown "
+"menu.*"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:254
+msgid "|userdoc_fig_6_8_2_PrivilegesRecordView|"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:303
+msgid "userdoc_fig_6_8_2_PrivilegesRecordView"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:256
+msgid "**Figure 6.8.2:** Publishing via record view"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:259
+msgid "Batch editing"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:261
+msgid ""
+"Administrators will have the privileges to perform batch editing on "
+"records. See the `Administrator Guidance <adminguidance.html#batch-"
+"editing>`__ for more information."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:264
+msgid "Deleting metadata"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:266
+msgid ""
+"Users with the appropriate privileges will be able to edit or delete "
+"records from the portal."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:268
+msgid "To delete a metadata record:"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:276
+msgid "**4|** Click on the |button_contribute_delete| in the row for the record."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:331
+msgid "button_contribute_delete"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:278
+msgid ""
+"**5|** A confirmation prompt will be displayed. Click 'OK' to confirm the"
+" deletion."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:280
+msgid ""
+"*Note: the record may still appear in the list until the page is "
+"refreshed.*"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:282
+msgid "|userdoc_fig_6_10_1_DeleteRecordConfirm|"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:304
+msgid "userdoc_fig_6_10_1_DeleteRecordConfirm"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:284
+msgid "**Figure 6.10.1:** Confirmation requested to delete a metadata record"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:286
+msgid ""
+"Alternatively, the user can delete a record directly from the record's "
+"page by clicking the |button_view_delete| button."
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:332
+msgid "button_view_delete"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:288
+msgid ""
+"*Note: A confirmation prompt will be displayed. Click 'OK' to confirm the"
+" deletion.*"
+msgstr ""
+
+#: ../../UserDoc_Chap5_Edit.rst:290
+msgid ""
+"Users should note that when deleting a record that had previously been "
+"published, that record will not be deleted from other portals which may "
+"have harvested the record, such as `data.gov.uk <http://data.gov.uk/>`__."
+" Users should contact `Natural Resources Wales "
+"<mailto:opendata@cyfoethnaturiolcymru.gov.uk>`__ to have records deleted "
+"from `data.gov.uk <http://data.gov.uk/>`__."
+msgstr ""
+

@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Astun Technology and Natural Resources Wales
+# This file is distributed under the same license as the Natural Resources
+# Wales Metadata package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Natural Resources Wales Metadata \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-28 16:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: cy\n"
+"Language-Team: cy <LL@li.org>\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 1 : n==2 ? 2 : n==3 ? 3 : n==6 ?"
+" 4 : 0);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../accessibility.rst:2
+msgid "Accessibility"
+msgstr ""
+
+#: ../../accessibility.rst:4
+msgid ""
+"This website is hosted and maintained by `Astun Technology "
+"<https://astuntechnology.com/>`__ on behalf of the `Natural Resources "
+"Wales <https://naturalresources.wales/>`__. We want `Natural Resources "
+"Wales Metadata <https://metadata.naturalresources.wales/>`__ to be "
+"accessible and usable for as many people as possible."
+msgstr ""
+
+#: ../../accessibility.rst:7
+msgid "How accessible this website is"
+msgstr ""
+
+#: ../../accessibility.rst:9
+msgid "We know some parts of this website are not fully accessible:"
+msgstr ""
+
+#: ../../accessibility.rst:11
+msgid ""
+"Not all non-text content is available in text form, for example not all "
+"images have \"alt\" attributes"
+msgstr ""
+
+#: ../../accessibility.rst:12
+msgid "Not all content can be rendered using assistive technology"
+msgstr ""
+
+#: ../../accessibility.rst:13
+msgid "Some elements such as links are distinguishable only by colour"
+msgstr ""
+
+#: ../../accessibility.rst:14
+msgid ""
+"Not all pages have titles or descriptions that adequately describe their "
+"purpose"
+msgstr ""
+
+#: ../../accessibility.rst:15
+msgid "Not all links have a purpose that can be determined by the link text alone"
+msgstr ""
+
+#: ../../accessibility.rst:16
+msgid ""
+"Entering data into controls does not always have a predictable effect, "
+"nor are consistent instructions provided on their use"
+msgstr ""
+
+#: ../../accessibility.rst:20
+msgid "Feedback"
+msgstr ""
+
+#: ../../accessibility.rst:22
+msgid ""
+"If you cannot access any part of this site or want to report an "
+"accessibility problem, please  `tell us "
+"<mailto:opendata@cyfoethnaturiolcymru.gov.uk>`__."
+msgstr ""
+
+#: ../../accessibility.rst:24
+msgid ""
+"`AbilityNet <https://mcmw.abilitynet.org.uk/>`__ has advice on making "
+"your device easier to use if you have a disability."
+msgstr ""
+
+#: ../../accessibility.rst:28
+msgid "Enforcement procedure"
+msgstr ""
+
+#: ../../accessibility.rst:30
+msgid ""
+"The Equality and Human Rights Commission enforces the `accessibility "
+"regulations "
+"<http://www.legislation.gov.uk/uksi/2018/952/regulation/4/made>`__ (the "
+"Public Sector Bodies (Websites and Mobile Applications) (No. 2) "
+"Accessibility Regulations 2018)."
+msgstr ""
+
+#: ../../accessibility.rst:32
+msgid ""
+"If you're not happy with how we respond to your feedback, `contact the "
+"Equality Advisory and Support Service "
+"<https://www.equalityadvisoryservice.com/>`__. They are an independent "
+"advice service. They will advise you on what to do next."
+msgstr ""
+
+#: ../../accessibility.rst:35
+msgid "Compliance statement"
+msgstr ""
+
+#: ../../accessibility.rst:37
+msgid ""
+"Natural resources Wales commits to making its websites accessible, in "
+"accordance with the Public Sector Bodies (Websites and Mobile "
+"Applications) (No. 2) Accessibility Regulations 2018. This accessibility "
+"statement applies to `Natural Resources Wales Metadata "
+"<https://metadata.naturalresources.wales/>`__ and was last reviewed on 7 "
+"March 2024."
+msgstr ""
+
+#: ../../accessibility.rst:39
+msgid ""
+"The site was reviewed using the SiteImprove Chrome plugin in August 2020."
+" This website is not yet fully compliant with the `Web Content "
+"Accessibility Guidelines version 2.1 <https://www.w3.org/TR/WCAG21/>`__ "
+"(WCAG) A success criteria due to the non-compliances listed above."
+msgstr ""
+

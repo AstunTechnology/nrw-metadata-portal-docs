@@ -1,0 +1,319 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Astun Technology and Natural Resources Wales
+# This file is distributed under the same license as the Natural Resources
+# Wales Metadata package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Natural Resources Wales Metadata \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-28 16:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: cy\n"
+"Language-Team: cy <LL@li.org>\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 1 : n==2 ? 2 : n==3 ? 3 : n==6 ?"
+" 4 : 0);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../UserDoc_Chap2_Search.rst:2
+msgid "Searching for Metadata"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:4
+msgid ""
+"This section will guide users and guests to the site on how to search and"
+" filter metadata provided by data publishers to `Natural Resources Wales "
+"Metadata catalog <https://metadata.naturalresources.wales/geonetwork>`__."
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:7
+msgid "Accessing the portal"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:9
+msgid "The portal can be accessed from the following link:"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:11
+msgid ""
+"`Natural Resources Wales Metadata catalog "
+"<https://metadata.naturalresources.wales/geonetwork>`__"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:13
+msgid ""
+"The home page of the portal comprises a basic search bar at the top, and "
+"also provides the option to browse by topic category (default) or by "
+"INSPIRE theme. Visitors can also browse the newest entries to the site or"
+" the most popular using the tabs lower down the page. Tabs in the header "
+"menu give access to the main **search** page, **map** viewer and **sign "
+"in** page (for registered users). Clicking the portal name on the header "
+"menu will return the user to the home page."
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:18
+msgid "|userdoc_fig_2_1_1_Home|"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:100
+msgid "userdoc_fig_2_1_1_Home"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:20
+msgid "**Figure 2.1.1:** Home page"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:22
+msgid ""
+"When logged in, registered users of the site will be presented with "
+"further buttons on the header menu for |button_contribute| and "
+"|button_adminconsole| (for user and site administrators). The "
+"|button_contribute| menu gives options to navigate to the **Editor "
+"board**, `add a new record <UserDoc_Chap4_Create.html#creating-metadata-"
+"from-a-template>`__, `import new records <UserDoc_Chap4_Create.html"
+"#importing-existing-metadata>`__, `manage directory "
+"<UserDoc_Chap4_Create.html#creating-directory-metadata>`__, `batch "
+"editing <UserDoc_Chap5_Edit.html#batch-editing>`__ and access rights."
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:107
+msgid "button_contribute"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:108
+msgid "button_adminconsole"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:28
+msgid "Basic searching"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:30
+msgid ""
+"Quick searches on the portal can be performed directly from the home page"
+" using the search box and clicking the search button "
+"(|button_search_icon|)."
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:109
+msgid "button_search_icon"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:32
+msgid "*Note: wildcard characters, such as the asterisk key, can also be used.*"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:34
+msgid "|userdoc_fig_2_2_1_BasicSearch|"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:101
+msgid "userdoc_fig_2_2_1_BasicSearch"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:36
+msgid "**Figure 2.2.1:** A basic search from the home page"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:38
+msgid ""
+"This will take the user to the main search panel, showing the resulting "
+"records in the centre of the page, with additional filtering options to "
+"the left. The user can also access the main search panel by clicking "
+"|button_search| on the top menu of the home page. To the bottom right of "
+"the page is a small map view showing the geographic extents of the "
+"queried results. This can be minimised by clicking the collapse button on"
+" the right of the map."
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:110
+msgid "button_search"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:42
+msgid "|userdoc_fig_2_2_2_SearchResults|"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:102
+msgid "userdoc_fig_2_2_2_SearchResults"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:44
+msgid "**Figure 2.2.2:** Search results displayed on the main search panel"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:47
+msgid "Advanced searching"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:49
+msgid ""
+"Other search options are available from the |button_search_advanced| icon"
+" to the right of the main search box. This expands to show **Options**, "
+"**Languages** and **Advanced**."
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:111
+msgid "button_search_advanced"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:51
+msgid ""
+"**Options** allows users to search by \"Exact match\", \"In title only\","
+" and \"Only my records\" (if the user is logged in)"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:52
+msgid ""
+"**Languages** allows users to limit the search based on the metadata "
+"language of a record by searching \"in all languages\", \"in detected "
+"language\", or \"in UI language\""
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:53
+msgid ""
+"**Advanced** allows users to limit the search based on the temporal "
+"coverage of a record."
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:55
+msgid "To perform an advanced search:"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:57
+msgid "**1|** Click |button_search| to access the search page."
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:59
+msgid ""
+"**2|** Click the |button_search_advanced| next to the search text box to "
+"access advanced options."
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:61
+msgid ""
+"**3|** Provide additional search criteria (e.g. constraining by exact "
+"match, language or temporal extent)."
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:63
+msgid ""
+"**4|** Click |button_search_icon| to run the search based on the selected"
+" options. Results will be displayed in the list below."
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:65
+msgid "*Note: search options can be cleared by clicking* |button_search_reset|."
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:112
+msgid "button_search_reset"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:67
+msgid "|userdoc_fig_2_3_1_AdvancedSearch|"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:103
+msgid "userdoc_fig_2_3_1_AdvancedSearch"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:69
+msgid "**Figure 2.3.1:** Advanced search options"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:72
+msgid "Filter and sort options"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:74
+msgid ""
+"Search results can be limited using the options available in the left-"
+"hand panel. Each search filter shows the number of records returned next "
+"to it. Filtering options available are as follows:"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:77
+msgid "**Type of resources** (e.g. datasets or services)"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:78
+msgid "**Licence Type**"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:79
+msgid "**Topics**"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:80
+msgid "**INSPIRE Theme**"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:81
+msgid "**Keywords**"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:82
+msgid "**Organizations**"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:83
+msgid "**Years** (grouped in 5-year intervals)"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:84
+msgid "**Formats**"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:85
+msgid "**Available in**"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:86
+msgid "**Spatial Representation Type** (i.e. raster or vector)"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:87
+msgid "**Update Frequencies**"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:88
+msgid "**Scales**"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:90
+msgid ""
+"At the top right of the search results list, there is a menu to sort the "
+"results by **title**, **relevance**, **date of change**, **rating**, "
+"**popularity**, and **scale**. At the top left of the results list users "
+"can select all results, all results on the current page, or none to "
+"deselect. Upon selection users can choose to export the results to a zip,"
+" pdf or csv file. Note that registered users will be able to perform "
+"additional actions, such as `publish <UserDoc_Chap5_Edit.html#publishing-"
+"metadata>`__ (if they have Reviewer privileges) or `delete "
+"<UserDoc_Chap5_Edit.html#deleting-metadata>`__ (if they have Editor "
+"privileges), on selected records."
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:96
+msgid "|userdoc_fig_2_4_1_SortOptions| |userdoc_fig_2_4_1_SelectOptions|"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:104
+msgid "userdoc_fig_2_4_1_SortOptions"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:105
+msgid "userdoc_fig_2_4_1_SelectOptions"
+msgstr ""
+
+#: ../../UserDoc_Chap2_Search.rst:98
+msgid "**Figure 2.4.1:** Sort and select options"
+msgstr ""
+

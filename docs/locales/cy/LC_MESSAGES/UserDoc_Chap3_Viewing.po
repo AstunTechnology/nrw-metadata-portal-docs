@@ -1,0 +1,516 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Astun Technology and Natural Resources Wales
+# This file is distributed under the same license as the Natural Resources
+# Wales Metadata package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Natural Resources Wales Metadata \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-28 16:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: cy\n"
+"Language-Team: cy <LL@li.org>\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 1 : n==2 ? 2 : n==3 ? 3 : n==6 ?"
+" 4 : 0);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../UserDoc_Chap3_Viewing.rst:2
+msgid "Viewing Metadata and Data"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:4
+msgid ""
+"This section will guide users and visitors to the site on viewing "
+"metadata and previewing data using the interactive map."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:7
+msgid "Viewing metadata records"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:9
+msgid ""
+"Clicking on the title of a record (from either the search results or "
+"those presented on the main page) will allow the user to view the "
+"metadata record. Below the record title, the **abstract** provides a "
+"brief description of what the dataset (or service) is and what it is used"
+" for. The spatial **extent** of the resource can be seen in the map "
+"below, in the **Discover data** section. Access to the data itself can be"
+" gained from the options listed in the **Links** section."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:14
+msgid "|userdoc_fig_3_1_1_DefaultViewA|"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:148
+msgid "userdoc_fig_3_1_1_DefaultViewA"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:16
+msgid "**Figure 3.1.1:** Default record view"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:18
+msgid ""
+"Scrolling down the page, the **Use contraints** section provides "
+"information on licencing and the **Technical information** headings "
+"provide details on topic categories and keywords, maintenance frequency, "
+"coordinate systems and data formats are provided. Information on the "
+"history of a resource and how it was created can be found in the "
+"**Lineage** section. The **Metadata information** section, as the name "
+"suggests, provides information on the metadata itself, as well as the "
+"option for the metadata record to be downloaded."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:21
+msgid ""
+"Note that the default view for a metadata record displays a summary of "
+"the information in the record. To change the display view of the metadata"
+" record:"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:24
+msgid "**1|** Click on |button_view_display| at the top right of the record."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:155
+msgid "button_view_display"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:26
+msgid "**2|** Choose 'Full view' to display a detailed view of the record."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:29
+msgid "Exporting metadata records"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:31
+msgid ""
+"Metadata records can be exported from spatialdata.gov.scot via the "
+"download icon menu at the top right of the record. To export a record:"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:33
+msgid "**1|** Click on |button_view_download| at the top right of the record."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:156
+msgid "button_view_download"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:35
+msgid ""
+"**2|** Choose the format to export (ZIP, PDF or XML). The permalink "
+"option will provide a URL for the record that can be copy and pasted."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:37
+msgid "|userdoc_fig_3_2_1_ExportMetadata|"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:149
+msgid "userdoc_fig_3_2_1_ExportMetadata"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:39
+msgid "**Figure 3.2.1:** Export metadata menu"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:42
+msgid "Previewing data in the map"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:44
+msgid ""
+"Spatial data can be previewed in the interactive map using the web "
+"services referenced in the metadata. This capability can be accessed "
+"either from the search results page, the metadata record view, or from "
+"the interactive map tab in the header menu."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:47
+msgid "To add a layer to the map from the search results page:"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:49
+msgid ""
+"**1|** Click on |button_view_globe| visible at the bottom right of the "
+"record."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:157
+msgid "button_view_globe"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:51
+msgid ""
+"**2|** If there are multiple layers in the service, click the desired "
+"layer or choose to add all layers to the map."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:53
+msgid "|userdoc_fig_3_3_1_AddtoMapSearch|"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:150
+msgid "userdoc_fig_3_3_1_AddtoMapSearch"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:55
+msgid "**Figure 3.3.1:** Adding a layer to the map via the search results page"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:57
+msgid "To add a layer from the main map page:"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:59
+msgid ""
+"**1|** Click on |button_map| in the header menu to navigate to the main "
+"map page."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:158
+msgid "button_map"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:61
+msgid ""
+"**2|** On the right-hand side of the map, click |button_map_addlayer| at "
+"the top of the menu to open the **Add a Layer from** dialog."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:159
+msgid "button_map_addlayer"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:63
+msgid ""
+"**3|** On the **Search** tab of the **Add a Layer** dialog, enter text in"
+" the search box to find a layer. Alternatively, copy and paste a URL for "
+"a service into the **WMS**, **WMTS**, **WFS** or **ESRIREST** boxes on "
+"the **Services** tab. KML and KMZ can be added to the map via the "
+"**Files** tab."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:65
+msgid ""
+"**4|** Click |button_map_addicon| below the layer title to add it to the "
+"map. If adding from a URL, click on the layer name or the "
+"|button_map_addlayer| next to the name to add it to the map."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:160
+msgid "button_map_addicon"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:67
+msgid ""
+"*Note: when adding straight from the map page, using the search tab, you "
+"may see layers with no name. This is caused by the web service layer "
+"names not being referenced properly in the associated resources part of "
+"the dataset metadata record. Contributors to spatialdata.gov.scot should "
+"update their metadata records so their resources in the dataset metadata "
+"are named with the layer name as it appears in the service (i.e. as "
+"listed in the GetCapabilities request). See the* `Associated Resources "
+"<UserDoc_Chap5_Edit.html#associated-resources>`__ *section for guidance "
+"on how to set up associated resources.*"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:72
+msgid "|userdoc_fig_3_3_3_AddtoMapMapPage|"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:152
+msgid "userdoc_fig_3_3_3_AddtoMapMapPage"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:74
+msgid "**Figure 3.3.3:** Adding a layer to the map via the map interface"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:76
+msgid "To add a layer to the map from the metadata record view:"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:78
+msgid ""
+"**1|** Scroll to the **API** section of the record. Services that can be "
+"added to the map will have |button_view_addtomap| beside them."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:161
+msgid "button_view_addtomap"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:80
+msgid ""
+"**2|** For view services (i.e. WMS), Click on |button_view_addtomap|. The"
+" user will be automatically taken to the map page."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:82
+msgid ""
+"**3|** For download services (i.e. WFS), select the layer from the drop "
+"down menu then click on |button_view_addtomap|."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:84
+msgid "|userdoc_fig_3_3_2_AddtoMapRecordView|"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:151
+msgid "userdoc_fig_3_3_2_AddtoMapRecordView"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:86
+msgid "**Figure 3.3.2:** Adding a layer to the map from the metadata record view"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:88
+msgid ""
+"*Note: with respect to WFS, users may experience occasions where the "
+"layer appears to have been added to the map, yet does not display. This "
+"occurs when the Access-Control-Allow-Orgin header (CORS access policy) is"
+" missing from the remote server, and thus the request is blocked by the "
+"browser. This is out of the control of the portal as it is dependent on "
+"the organisations' server configuration, however, an error message shall "
+"be displayed.*"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:93
+msgid "Managing layers in the map"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:95
+msgid ""
+"Available tools for the map are arranged down the right-hand side of the "
+"page."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:97
+msgid "To manage layers displayed in the map:"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:99
+msgid ""
+"**1|** Click |button_map_managelayers| on the right-hand side of the map."
+" This will display a list of layers currently added to the map."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:162
+msgid "button_map_managelayers"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:101
+msgid ""
+"*Note: those with scale-dependent visibility that are not currently "
+"visible will be greyed out. Layers that cannot be added for some other "
+"reason, such as an error with the service, will display the layer name in"
+" red next to an error icon* (|button_map_exclamationicon|)."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:163
+msgid "button_map_exclamationicon"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:103
+msgid ""
+"**2|** To toggle a layer on or off, click on the layer name or "
+"check/uncheck the box."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:105
+msgid ""
+"**3|** Click the cog icon (|button_map_cogicon|) to access a menu to zoom"
+" to the extent of the layer, select syle (if available), adjust the "
+"opacity, or remove the layer from the map."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:164
+msgid "button_map_cogicon"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:107
+msgid ""
+"**4|** To toggle the layer legend on or off, click "
+"|button_map_legendicon|."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:165
+msgid "button_map_legendicon"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:109
+msgid "|userdoc_fig_3_4_1_ManageLayers|"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:153
+msgid "userdoc_fig_3_4_1_ManageLayers"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:111
+msgid "**Figure 3.4.1:** Manage layers menu"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:114
+msgid "Print the map"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:116
+msgid "To print the current map:"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:118
+msgid ""
+"**1|** Click |button_map_print| from the menu on the right-hand side of "
+"the map."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:170
+msgid "button_map_print"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:120
+msgid ""
+"**2|** In the appropriate boxes, enter text for the title of the map and "
+"a description or credit for the map if desired."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:122
+msgid "**3|** Choose the desired layout (landscape, overview or portrait)."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:124
+msgid ""
+"**4|** Choose the auto option for scale, or uncheck and select the "
+"desired scale from the dropdown list."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:126
+msgid "**5|** Check the print legend box to include the legend on the map."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:128
+msgid ""
+"**6|** Select the desired format (either PDF or PNG) and click "
+"|button_map_printcurrent|."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:171
+msgid "button_map_printcurrent"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:130
+msgid "*Note: the print area will be highlighted on the map.*"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:132
+msgid "|userdoc_fig_3_5_1_PrintMap|"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:154
+msgid "userdoc_fig_3_5_1_PrintMap"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:134
+msgid "**Figure 3.5.1:** Printing the current map"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:137
+msgid "Other map functions"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:139
+msgid ""
+"Other functionality available from the tabs on the main map page is as "
+"follows:"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst
+msgid "|button_map_default| Default Map"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:172
+msgid "button_map_default"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:141
+msgid ""
+"via the manage layers tab, allows the user to reload the default map "
+"settings (removes all layers, etc.)."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst
+msgid "|button_map_measure| Measure"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:173
+msgid "button_map_measure"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:142
+msgid ""
+"allows the user to draw a line on the map to measure it's length. Single-"
+"click to create a node and double-click to finish."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst
+msgid "|button_map_graticules| Projection Switcher"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:178
+msgid "button_map_graticules"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:143
+msgid ""
+"change the projection of the map to one of the supported projections in "
+"the dropdown list."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst
+msgid "|button_map_zoomin| |button_map_zoomout| Zoom in and out"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:175
+msgid "button_map_zoomin"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:176
+msgid "button_map_zoomout"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:144
+msgid "zoom in or out on the map."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst
+msgid "|button_map_zoomextent| Zoom to initial map extent"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:177
+msgid "button_map_zoomextent"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:145
+msgid "zoom to the full extent of the map."
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst
+msgid "|button_map_graticules| Graticule"
+msgstr ""
+
+#: ../../UserDoc_Chap3_Viewing.rst:146
+msgid "adds a grid to the map (in lat/long)."
+msgstr ""
+
