@@ -98,7 +98,7 @@ To create a metadata record by duplicating an existing record:
 Harvesting metadata
 -------------------
 
-`Natural Resources Wales Metadata <https://metadata.naturalresources.wales/geonetwork>`__ has the capability to automatically consume metadata from external services on a scheduled basis. Organisations that maintain their own spatial data portals which are interested in having their records automatically harvested should contact `Natural Resources Wales <mailto:opendata@cyfoethnaturiolcymru.gov.uk?subject=Data Discovery Enquiry>`__.
+`Natural Resources Wales Metadata <https://metadata.naturalresources.wales/geonetwork>`__ has the capability to automatically consume metadata from external services on a scheduled basis. Organisations that maintain their own spatial data portals which are interested in having their records automatically harvested should contact `Natural Resources Wales <mailto:opendata@cyfoethnaturiolcymru.gov.uk?subject=Data%20Discovery%20Enquiry>`__.
 
 Creating directory metadata
 ---------------------------

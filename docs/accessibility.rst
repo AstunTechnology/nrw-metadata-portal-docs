@@ -19,7 +19,7 @@ We know some parts of this website are not fully accessible:
 Feedback
 --------
 
-If you cannot access any part of this site or want to report an accessibility problem, please  `tell us <mailto:opendata@cyfoethnaturiolcymru.gov.uk?subject=Data Discovery Enquiry>`__.
+If you cannot access any part of this site or want to report an accessibility problem, please  `tell us <mailto:opendata@cyfoethnaturiolcymru.gov.uk?subject=Data%20Discovery%20Enquiry>`__.
 
 `AbilityNet <https://mcmw.abilitynet.org.uk/>`__ has advice on making your device easier to use if you have a disability.
 

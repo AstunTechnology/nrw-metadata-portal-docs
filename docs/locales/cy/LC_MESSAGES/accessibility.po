@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Natural Resources Wales Metadata \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-05 10:48+0100\n"
+"POT-Creation-Date: 2024-04-05 10:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: cy\n"
@@ -77,11 +77,11 @@ msgid "Feedback"
 msgstr ""
 
 #: ../../accessibility.rst:22
+#, python-format
 msgid ""
 "If you cannot access any part of this site or want to report an "
 "accessibility problem, please  `tell us "
-"<mailto:opendata@cyfoethnaturiolcymru.gov.uk?subject=Data Discovery "
-"Enquiry>`__."
+"<mailto:opendata@cyfoethnaturiolcymru.gov.uk?subject=Data%20Discovery%20Enquiry>`__."
 msgstr ""
 
 #: ../../accessibility.rst:24
@@ -138,5 +138,13 @@ msgstr ""
 #~ " this site or want to report an"
 #~ " accessibility problem, please  `tell us"
 #~ " <mailto:opendata@cyfoethnaturiolcymru.gov.uk>`__."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you cannot access any part of"
+#~ " this site or want to report an"
+#~ " accessibility problem, please  `tell us"
+#~ " <mailto:opendata@cyfoethnaturiolcymru.gov.uk?subject=Data "
+#~ "Discovery Enquiry>`__."
 #~ msgstr ""
 
