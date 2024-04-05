@@ -24,7 +24,7 @@ Access to your information
 --------------------------
 
 You are entitled to view, amend, or delete the personal information that we hold about you. For more information on accessing
-the information we hold about you, please `contact us <mailto:opendata@cyfoethnaturiolcymru.gov.uk>`__.
+the information we hold about you, please `contact us <mailto:opendata@cyfoethnaturiolcymru.gov.uk?subject=Data Discovery Enquiry>`__.
 
 Be aware that most modern web browsers allow users to control cookies through the browser settings. To find out more about cookies, including how to
 see what cookies have been set and how to manage and delete them, visit `www.aboutcookies.org <https://www.aboutcookies.org/>`__ or `cookies.insites.com <https://cookies.insites.com/>`__.
@@ -32,5 +32,5 @@ see what cookies have been set and how to manage and delete them, visit `www.abo
 Contact us
 ----------
 
-Please contact us via email at `opendata@cyfoethnaturiolcymru.gov.uk <mailto:opendata@cyfoethnaturiolcymru.gov.uk>`__ if you have any questions with regards to your privacy when using the Natural Resources Wales metadata portal or information we hold about you.
+Please contact us via email at `opendata@cyfoethnaturiolcymru.gov.uk <mailto:opendata@cyfoethnaturiolcymru.gov.uk?subject=Data Discovery Enquiry>`__ if you have any questions with regards to your privacy when using the Natural Resources Wales metadata portal or information we hold about you.
 

@@ -288,7 +288,7 @@ Alternatively, the user can delete a record directly from the record's page by c
 *Note: A confirmation prompt will be displayed. Click 'OK' to confirm the deletion.*
 
 Users should note that when deleting a record that had previously been published, that record will not be deleted from other portals which may have
-harvested the record, such as `data.gov.uk <http://data.gov.uk/>`__. Users should contact `Natural Resources Wales <mailto:opendata@cyfoethnaturiolcymru.gov.uk>`__
+harvested the record, such as `data.gov.uk <http://data.gov.uk/>`__. Users should contact `Natural Resources Wales <mailto:opendata@cyfoethnaturiolcymru.gov.uk?subject=Data Discovery Enquiry>`__
 to have records deleted from `data.gov.uk <http://data.gov.uk/>`__.
 
 .. |userdoc_fig_6_2_1_DefaultEdit| image:: media/userdoc_fig_6_2_1_DefaultEdit.png
