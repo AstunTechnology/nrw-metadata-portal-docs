@@ -1,7 +1,7 @@
 Searching for Metadata
 ======================
 
-This section will guide users and guests to the site on how to search and filter metadata provided by data publishers to `Natural Resources Wales Metadata catalog <https://metadata.naturalresources.wales/geonetwork>`__.
+This section will guide users and guests to the site on how to search and filter metadata provided by data publishers to `Natural Resources Wales Discovery Metadata catalogue <https://metadata.naturalresources.wales/geonetwork>`__.
 
 Accessing the portal
 --------------------
@@ -12,7 +12,7 @@ The portal can be accessed from the following links:
 
 The home page of the portal comprises of a basic search bar at the top, and also provides the option to browse by topic category (default) or
 by INSPIRE theme. Tabs in the header menu give access to the main **search** page and selecting **Cymraeg** will switch users to the welsh version of the catalogue. NRW Staff can use the **Sign-in** option to log-in via single sign on to edit and create metadata records where access is allowed and to also access metadata elements that are resticted to public access 
-Clicking the portal name on the header menu will
+clicking the portal name on the header menu will
 return the user to the home page.
 
 |userdoc_fig_2_1_1_Home|
@@ -29,7 +29,7 @@ Basic searching
 
 Quick searches on the portal can be performed directly from the home page using the search box and clicking the search button (|button_search_icon|).
 
-*Note: wildcard characters, such as the asterisk key, can also be used.*
+*Note: To search using the metadata's Unique Resource Identifier and to create a wildcare search you can use the asterisk key. For precise search results use " " in your search e.g."Areas of Outstanding Natural Beauty".
 
 |userdoc_fig_2_2_1_BasicSearch|
 
