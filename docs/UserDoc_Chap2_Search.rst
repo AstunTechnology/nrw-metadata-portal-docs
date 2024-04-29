@@ -6,13 +6,13 @@ This section will guide users and guests to the site on how to search and filter
 Accessing the portal
 --------------------
 
-The portal can be accessed from the following link:
+The portal can be accessed from the following links:
 
-`Natural Resources Wales Metadata catalog <https://metadata.naturalresources.wales/geonetwork>`__
+`Natural Resources Wales Metadata catalogue - <https://metadata.naturalresources.wales/geonetwork>`__
 
-The home page of the portal comprises a basic search bar at the top, and also provides the option to browse by topic category (default) or
-by INSPIRE theme. Visitors can also browse the newest entries to the site or the most popular using the tabs lower down the page. Tabs in the header
-menu give access to the main **search** page, **map** viewer and **sign in** page (for registered users). Clicking the portal name on the header menu will
+The home page of the portal comprises of a basic search bar at the top, and also provides the option to browse by topic category (default) or
+by INSPIRE theme. Tabs in the header menu give access to the main **search** page and selecting **Cymraeg** will switch users to the welsh version of the catalogue. NRW Staff can use the **Sign-in** option to log-in via single sign on to edit and create metadata records where access is allowed and to also access metadata elements that are resticted to public access 
+Clicking the portal name on the header menu will
 return the user to the home page.
 
 |userdoc_fig_2_1_1_Home|
