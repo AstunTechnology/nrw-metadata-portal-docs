@@ -46,27 +46,8 @@ page is a small map view showing the geographic extents of the queried results. 
 Advanced searching
 ------------------
 
-Other search options are available from the |button_search_advanced| icon to the right of the main search box. This expands to show **Options**, **Languages** and **Advanced**.
+If you are wanting to create an advanced search within Data Discovery there are advanced search functionality which you can find in the main search page by clicking on this icon INSERT THE ICON HERE. **Exact Match** means the search result will only return results for what you have entered in the search e.g. entering brown trout will not give you returns for records that only contain the word trout. The other advanced search option is **Search in title only**, this functionality will remove the elastic search options of the basic search and when selected will only look in the title element of metadata records and not in other elements such as abstract.
 
-* **Options** allows users to search by "Exact match", "In title only", and "Only my records" (if the user is logged in)
-* **Languages** allows users to limit the search based on the metadata language of a record by searching "in all languages", "in detected language", or "in UI language"
-* **Advanced** allows users to limit the search based on the temporal coverage of a record.
-
-To perform an advanced search:
-
-	**1|** Click |button_search| to access the search page.
-
-	**2|** Click the |button_search_advanced| next to the search text box to access advanced options.
-
-	**3|** Provide additional search criteria (e.g. constraining by exact match, language or temporal extent).
-
-	**4|** Click |button_search_icon| to run the search based on the selected options. Results will be displayed in the list below.
-
-	*Note: search options can be cleared by clicking* |button_search_reset|.
-
-|userdoc_fig_2_3_1_AdvancedSearch|
-
-**Figure 2.3.1:** Advanced search options
 
 Filter and sort options
 -----------------------
@@ -75,23 +56,16 @@ Search results can be limited using the options available in the left-hand panel
 it. Filtering options available are as follows:
 
 * **Type of resources** (e.g. datasets or services)
-* **Licence Type**
-* **Topics**
+* **Format Type**
+* **Available to Download**
 * **INSPIRE Theme**
-* **Keywords**
-* **Organizations**
-* **Years** (grouped in 5-year intervals)
-* **Formats**
-* **Available in**
-* **Spatial Representation Type** (i.e. raster or vector)
-* **Update Frequencies**
-* **Scales**
+* **Responsible Organisation (Owner)**
 
-At the top right of the search results list, there is a menu to sort the results by **title**, **relevance**, **date of change**, **rating**, **popularity**,
-and **scale**. At the top left of the results list users can select all results, all results on the current page, or none to deselect. Upon
+
+At the top right of the search results list, there is a menu to sort the results by **title**, **relevance**, **most recently updated**, **rating** and **popularity**. At the top left of the results list users can select all results, all results on the current page, or none to deselect. Upon
 selection users can choose to export the results to a zip, pdf or csv file. Note that registered users will be able to perform additional actions,
 such as `publish <UserDoc_Chap5_Edit.html#publishing-metadata>`__ (if they have Reviewer privileges) or `delete <UserDoc_Chap5_Edit.html#deleting-metadata>`__
-(if they have Editor privileges), on selected records.
+(if they have Editor privileges), or submit for approval on selected records.
 
 |userdoc_fig_2_4_1_SortOptions| |userdoc_fig_2_4_1_SelectOptions|
 
