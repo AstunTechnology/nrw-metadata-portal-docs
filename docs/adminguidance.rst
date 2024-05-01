@@ -5,7 +5,7 @@ Introduction
 Overview
 --------
 
-This documentation is intended to provide guidance to administrators of the SSDI Catalogue. It assumes familiarity with the user guidance, particularly around the creation and validation of metadata.
+This documentation is intended to provide guidance to administrators of the Data Discovery Catalogue. It assumes familiarity with the user guidance, particularly around the creation and validation of metadata.
 
 The administrative functionality within the catalogue is accessed via the Admin console, on the top menu when you log in with an administrator profile. Additional functionality, such as  downloading catalogue-wide reports, is available from the advanced search page and also the **Editor board**.
 
@@ -101,8 +101,7 @@ Manage Directory
 ================
 
 Directories are snippets of information that can be pre-completed and inserted into metadata records. 
-They are derived from subtemplates that are part of metadata standards. The available subtemplates are shown as tabs across the top of the Directory subsection- for Gemini 2.2 and 2.3 these are 
-**Organizations and contacts**, **Data Quality Reports (Completeness)** and **Data Quality Reports (Domain Consistency)**. 
+They are derived from subtemplates that are part of metadata standards. The available subtemplates are shown as tabs across the top of the Directory subsection- for Data Discovery these are mainly the **Responsible Organisations**.
 The **Manage Directory** section can be accessed by clicking on the Contribute button in the header menu and then on **Manage directory**.
 
 Selecting **Organizations and contacts** shows the metadata snippet for adding a Points of Contact subtemplate. To create a new record based on this template, click the "Duplicate" icon (|image14c|) in the **Actions** dropdown.
@@ -287,18 +286,6 @@ Validation
 **Advanced**
 
 This section allows advanced administrators/system maintainers to see which schematron rules are in place for specific schemas and to edit them as required. **It is not recommended that changes are made in this section as it will impact on how records are validated**. 
-
-Metadata Identifier Templates
------------------------------
-
-**Advanced**
-
-By default this functionality is disabled in the admin settings, and identifiers are generated automatically by geonetwork when a record is created or imported. When enabled in the admin settings, this section allows the customisation of the identifier. The default is a randon UUID string, but identifier templates allow a pre-configured format with a template for rendering any user-generated elements. For example:
-
-* scot.gov::{IDCODE} would render the IDCODE as an element to be completed during metadata creation
-* scot.gov::{SLA}:{ID} would render both SLA and ID as elements to be completed during metadata creation
-
-When this setting is enabled, additional options are available when creating a record from a template. When importing records, the existing file identifier element is used as the UUID. An error is triggered if this is not unique in the catalogue.
 
 Harvesting
 ==========
