@@ -49,25 +49,27 @@ import has been successful. Following a successful import, users should verify t
 Creating metadata from a template
 ---------------------------------
 
-Basic templates are available for users to create metadata directly in the `Natural Resources Wales Metadata catalog <https://metadata.naturalresources.wales/geonetwork>`__.
+Data Discovery has multiple templates available to assist in the creation of metadata. This include templates for physical/paper data records, Third Party datasets and geospatial datasets. The recommended template for most NRW datasets will be **Template for Dataset Metadata in NRW 1.0 format**.
 
 To create a metadata record using an available template:
 
-	**1|** Click the |button_contribute| button in the header menu.
+**1|** Click the |button_contribute| button in the header menu. 
 
-	**2|** Click the |button_editor_board| button. This will enable the **Editor** board, where all records the user has access to will be listed.
+**2|** Click the |button_editor_board| button. This will enable the **Editor** board, where all records the user has access to will be listed.
 
-	**3|** Click the |button_contribute_addrecord| button.
+**3|** Click the |button_contribute_addrecord| button.
 
-	**4|** Choose the type of record to be created based on the type of resource that is being documented, i.e. a dataset, series or service record. When selected available templates for that type are displayed.
+**4|** Click on the template you would like to use.
 
-	*Note: templates for dataset and service metadata are slightly different. Metadata for a service has extra elements for the spatial data service type (i.e. view, download, etc.) and for coupled resources. You must choose the correct template for the type of record being documented as it is not possible to change once the record has been created.*
+**5|** Add which roup you would like the metadata to belong. This should be **Natural Resources Wales** for all records.
 
-	**5|** Click on the template to be used.
+**6|** All metadata records in Data Discovery need a **Unique Resource Identifier (URI)**. To generate your datasets URI you will need to select if the dataset is an **Internal Record** or for datasets that are not owned by NRW select **External Record**. You can then copy the number found in the **Next Available Identifier** box in the Unique Resource Identifier box. 
 
-	**6|** Click the |button_contribute_create| button to create the new record. This will automatically take the user to the editing view where elements of the new record can be modified. See `Editing a metadata record <UserDoc_Chap5_Edit.html#editing-metadata>`__ for guidance on documenting the resource.
 
-	*Note: if the user is an editor for multiple groups or an administrator to the site, they may be presented with multiple templates of the same name. Additionally, they will be required to select which group to assign the metadata record to.*
+	*Note:You can not use a URI that has already been used before and please do not add your own identifier. If you need any assistance then please contact opendata@cyfoethnaturiolcymru.gov.uk.*
+
+**7|** Click the |button_contribute_create| button to create the new record. This will automatically take the user to the editing view where elements of the new record can be modified. See `Editing a metadata record <UserDoc_Chap5_Edit.html#editing-metadata>`__ for guidance on documenting the resource.
+
 
 |userdoc_fig_5_2_1_CreateTemplate|
 
@@ -116,8 +118,7 @@ To create a directory entry:
 	**4|** Amend the entry as appropriate and click |button_contribute_savedirectory| to save changes.
 
 	**5|** Click |button_contribute_saveclosedirectory| to save and exit.
-
-	*Note: The individual name field is not mandatory for the UK Gemini standard, however, for directories it can be used to identify teams/business areas if you have a number of different contact details within an organisation (e.g. GIS, Planning, etc.)*
+*Note: This functionality is for Administrators only and users should contact opendata@cyfoethnaturiolcymru.gov.uk if they want a new directory added.*
 
 |userdoc_fig_5_5_1_DirectoryEntry|
 
