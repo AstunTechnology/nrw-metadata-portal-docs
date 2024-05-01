@@ -1,14 +1,14 @@
 Editing Metadata
 ================
 
-This section will guide the user through editing a metadata record on `spatialdata.gov.scot <https://www.spatialdata.gov.scot>`__, compliant to the `UK Gemini standard <https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini>`__.
+This section will guide the user through editing a metadata record on `Data Discovery <https://metadata.naturalresources.wales/geonetwork/srv/eng/catalog.search#/home>`__, compliant to NRW Metadata Standards.
 In most cases, the basic functionality provided by the *default view* of an editing sessions will be sufficent for the users need, however, in
 some instances additional functionality from the *advanced view* may be required.
 
 Starting an editing session
 ---------------------------
 
-Users will be able to edit any records they have contributed to the portal, or if they have appropriate privileges to edit records submitted by
+Editors will be able to edit any records they have contributed to the portal, or if they have appropriate privileges to edit records submitted by
 others (e.g. administrators).
 
 To begin an editing session:
@@ -28,8 +28,7 @@ Editing basics
 
 Once in an editing session, the user is presented with the simple *default* editing view. In the header menu, buttons are available for modifying
 the categories, group that the record belongs to, validation, cancelling the edit session, and saving the record. On the right side of the page,
-the `Associated resources <#associated-resources>`__ panel is visible, showing all related online resources and service records related to the
-record being edited.
+the `Associated resources <#associated-resources>`__ panel is visible, showing all related online resources such as links to locate the dataset if it is published by NRW and related datasets.
 
 The form displays the metadata elements grouped into relevant sections. The user can navigate through the form using the *table of contents*
 visible in the lower right of the screen (click |button_edit_toc| to display). Clicking an element section will take the user to the relevant section of the form. The user can
@@ -44,6 +43,8 @@ record requires one, then the minimum and maximum values are mandatory.
 Where a |button_edit_plus| button is displayed, the user can click this to add another occurrence of an element or section. For example, a record
 could have more than one alternative title. When the user hovers over a section and a |button_edit_delete| appears,
 clicking the cross will delete that element or section.
+
+Some elements in Data Discovery allow users to include the Welsh translation of the text. It is not mandatory to have the translations but please include if available.
 
 |userdoc_fig_6_2_1_DefaultEdit|
 
@@ -106,89 +107,21 @@ The licence category can also be assigned using the appropriate option when impo
 their metadata records into the portal, a default licence type can be selected for all records, though any records that differ from the default setting
 would need to be amended post harvest.
 
-Associated resources
---------------------
-
-The Associated Resources panel allows users to add online resources to their metadata and create relationships between dataset and service records
-(i.e. coupled resources). When in an editing session, the associated resources panel can be found at the top right of the page.
-
-To add an online resource to *dataset* metadata where a corresponding *service* record exists:
-
-	**1|** Click on the |button_edit_addassocresource| button at the top of the Associated Resources panel.
-
-	**2|** From the dropdown menu select 'Link to a service'. This will display the Link resources dialog.
-
-	**3|** Search using the free text box and click on the service record in the results list to select it (when selected it will be highlighted in blue).
-
-	**4|** This will display the layers available in the service. Click on the appropriate layer to select it (when selected it will be highlighted in green).
-
-	**5|** Click on the |button_edit_linkservice| to link the service to the dataset metadata. This creates a link between the dataset and service records and adds an online resource element to the dataset record.
-
-	**6|** If required, amendments can be made by clicking on the pencil icon beside the newly added online resource in the associated resources panel. Alternately scroll to the element in the main editing board and amend manually.
-
-	**7|** Click |button_edit_updatelink|.
-
-	*Note: For web services (i.e. WMS and WFS) to correctly display in the map, you must ensure that the protocol and layer name are correctly entered for the online resource. For dataset records the URL for for a WMS or WFS should* **not** *include the GetCapabilities request. While these elements are not required for Gemini compliance, the are needed to enable previewing on the map.*
-
-|userdoc_fig_6_5_1_AssocDatasetService|
-
-**Figure 6.5.1:** Adding an online resource to a dataset by associating with a service record
-
-To add an online resource to *dataset* metadata where **no** corresponding *service* record exists:
-
-	**1|** Click on the |button_edit_addassocresource| button at the top of the Associated Resources panel.
-
-	**2|** From the dropdown menu, select the first option, 'Link and online resource'. This will display the Link resources dialog.
-
-	**3|** Ensure the 'Add online resource' radio button is clicked.
-
-	**4|** Add the URL to ensure it points at the service (e.g. www.mapdata.scot/ServiceName/MapServer/WMSServer?). For dataset records the URL for for a WMS or WFS should **not** include the GetCapabilities request.
-
-	**5|** Set the correct protocol for the service from the drop down (e.g. OGC-WMS Web Map Service). This will then display the layers available in the service.
-
-	**6|** Click on the appropriate layer to select it (it will highlight in green).
-
-	**7|** Click |button_edit_addlink|.
-
-	*Note: For web services (i.e. WMS and WFS) to correctly display in the map, you must ensure that the protocol and layer name are correctly entered for the online resource (steps 5 and 6 above). While these elements are not required for Gemini compliance, the are needed to enable previewing on the map.*
-
-|userdoc_fig_6_5_2_OnlineResourceDataset|
-
-**Figure 6.5.2:** Adding an online resource to a dataset record
-
-To add an online resource (e.g. WMS or WFS) to a *service* metadata record:
-
-	**1|** Click on the |button_edit_addassocresource| at the top of the Associated Resources panel.
-
-	**2|** From the dropdown menu, select the first option, 'Link and online resource'. This will display the Link resources dialog.
-
-	**3|** Ensure the 'Add online resource' radio button is clicked.
-
-	**4|** Select the appropriate protocol for the online resource (e.g. for a WMS, select OGC-WMS Capabilities service)
-
-	**5|** Enter the URL for the service.
-
-	*Note: A service may contain multiple layers and these will be displayed when the service URL is entered. As this is a service record, it is not necessary to select a single layer to link to (this is only required for dataset records).*
-
-	**6|** Optionally, provide a name and description for the resource.
-
-	**7|** Click |button_edit_addlink|.
-
-|userdoc_fig_6_5_3_OnlineResourceService|
-
-**Figure 6.5.3:** Adding an online resource to a service record
 
 Validating metadata
 -------------------
 
-Once all elements for a new record have been completed or changes have been made to an existing record, it should be validated against the UK Gemini
-standard rules.
+Once all elements for a new record have been completed or changes have been made to an existing record, it should be validated against the appropriate metadata standard.
+
+For Geospatial Datasets please also validate against UK GEMINI Standard Draft Version 2.3 and Natural Resources Wales Metadata Profile
+
+For Marine Datasets please also validate against MEDIN Discovery Metadata Profile.
 
 To validate a metadata record:
 
 	**1|** In an editing session, click on the |button_edit_validate| button in the header bar.
 
-	**2|** Errors will be highlighted in the validation panel. Click the red thumbs-down icon (|button_edit_thumbsdown|)to see details of the error(s) organised by schematron.
+	**2|** Errors will be highlighted in the validation panel. Click the red thumbs-down icon (|button_edit_thumbsdown|)to see details of the error(s) organised by schematron. Pleant note that any errors in standards that are highlighted as supplemental these are not mandatory elements and can be a valid record when not completed.
 
 	**3|** Correct errors as necessary and repeat steps 1 and 2 until no errors are returned by the validator.
 
@@ -221,39 +154,21 @@ consult the `exporting metadata <UserDoc_Chap3_Viewing.html#exporting-metadata-r
 Publishing metadata
 -------------------
 
-Once a metadata record has been successfully `validated <#validating-metadata>`__, it can then be published, making it publicly viewable and available for harvesting by other data portals, such as `data.gov.uk <http://data.gov.uk/>`__.
+Once a metadata record has been successfully `validated <#validating-metadata>`__, it will need to be approved by a Data Discovery Reviewer or Administrator to make it available for public viewing.
 
-To publish a metadata record:
+To send a metadata record for approval:
 
-	**1|** Click on |button_contribute| in the header.
+1] Save and close your metadata record while will return you to your metadata record default view.
 
-	**2|** Click the |button_editor_board| button. This will enable the **Editor** board, where all records the user has access to will be listed.
+2] Under **Manage record** you can select **Send for Approval**. 
 
-	**3|** Locate the metadata record in the list below.
+3] A pop-up box will appear where you can include a personalised message to the reviewer. An email will then be sent to the metadata reviewer to review and approve for publishing.
 
-	**4|** Click on the |button_contribute_locked| next to the record name to access the Privileges dialog.
+If the record has not yet been submitted it will be tagged as **draft** in the editor board and after it is submitted it will then be tagged as **submitted. 
 
-	**5|** To make publicly viewable, tick the 'Set all privileges' box next to the row marked 'All' in the group column.
-
-	**6|** Click on |button_contribute_replace| to update the privileges for the record.
-
-Once the record is published, the padlock icon displayed on the Editor board should appear unlocked (|button_contribute_unlocked|).
+Once the record is published, the padlock icon displayed on the Editor board should appear unlocked and it will be tagged as **approved** (|button_contribute_unlocked|). 
 
 |userdoc_fig_6_8_1_PrivilegesPanel|
-
-**Figure 6.8.1:** Publishing via the contribute page
-
-Alternatively, there is a shortcut method to publish a record directly from the record's page in the `Natural Resources Wales Metadata catalog <https://metadata.naturalresources.wales/geonetwork>`__:
-
-	**1|** Click on the |button_view_managerecord| button at the top right of the record view.
-
-	**2|** From the dropdown menu, click on |button_view_publish| to publish the record.
-
-	*Note: the privileges dialog can also be accessed from this dropdown menu.*
-
-|userdoc_fig_6_8_2_PrivilegesRecordView|
-
-**Figure 6.8.2:** Publishing via record view
 
 Batch editing
 -------------
