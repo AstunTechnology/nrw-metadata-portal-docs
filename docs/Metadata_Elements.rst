@@ -81,10 +81,12 @@ The internal staff member or team that is identified as the Data Custodian for t
 
 Topic Category
 -------------------
+
 A basic classification for the data resource.  Select one or more categories that most closely represent the topic of the data resource from the controlled vocabulary. 
 
 Keywords - NRW Thesaurus
 -------------------
+
 Please include any keywords which you think help identify the dataset and increase its the data's discovarability. This can include species names, survey types, locations such as SSSI's or other protected site designations. 
 
 To add a keyword from the NRW Thesaurus you will need to select the book icon and select **NRW Thesaurus** a search box will then be opened for you to search for the relevant keyword. 
@@ -114,6 +116,8 @@ To add an organisation you will need to search the name of the organisation in t
 **Distributor** Who is the responsible organisation for releasing the data where applicable.
 
 **Custodian** Who is the organisaion responsible for maintaining the data resource.
+
+*Note: If you can't find the organisation then please contact your Data Discovery Administrator*
 
 Extent - Geographic bounding box
 --------------------------------
@@ -304,22 +308,7 @@ Lineage
 
 |userdoc_fig_7_15_1_Lineage|
 
-Maintenance information
---------------------------------
-:Gemini: `Maintenance information <https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#53>`__
-:INSPIRE: Maintenance information
-:ISO19115: MD_MaintenanceInformation.maintenanceAndUpdateFrequency
-:Obligation: Optional
-:occurrence: One
 
-:Definition:
-	Information about the scope and frequency of updating. Note that this identifies how often the updated 
-	data resource is made available to the user (for instance a data resource may be updated continuously, but released to the user only monthly).
-
-:Guidance:
-	Choose the appropriate frequency from the drop down list. If the update cycle is unknown, please choose '**Unknown**' from the list.
-
-|userdoc_fig_7_16_1_UpdateFrequency|
 
 Metadata date stamp
 -------------------
@@ -444,23 +433,6 @@ Parent identifier
 
 |userdoc_fig_7_33_1_ParentIdentifier|
 
-Resource identifier
--------------------
-:Gemini: `Resource identifier <https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#36>`__
-:INSPIRE: Unique resource identifier
-:ISO19115: MD_DataIdentification.citation > CI_Citation.identifier
-:Obligation: Mandatory (datasets), Optional (services)
-:occurrence: Many
-
-:Definition:
-	A value uniquely identifying the data resource within your organisation (i.e. how your organisation references the dataset).
-
-:Guidance:
-	The *Code* element is mandatory, and should be a recognisable identifier within the context of your organisation (i.e. a unique	code of numbers, 
-	letters or combination of referring to a single dataset).  If it is not guaranteed to be unique across the UK and the wider EU (INSPIRE), 
-	then the *Codespace* sub-element must be specified; this should be the internet domain of the data provider/owner.
-
-|userdoc_fig_7_3_1_CitationIdentifier|
 
 
 Resource locator
