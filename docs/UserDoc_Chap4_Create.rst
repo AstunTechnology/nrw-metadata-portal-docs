@@ -38,7 +38,7 @@ To import an existing XML metadata record:
 
 	**10|** Click the |button_contribute_importconfirm| button.
 
-|userdoc_fig_5_1_1_ImportMetadata|
+|userdoc_fig_5_1_1_NRWImportMetadata|
 
 **Figure 5.1.1:** Importing an existing XML metadata record
 
@@ -124,7 +124,7 @@ To create a directory entry:
 
 **Figure 5.5.1:** Creating a directory entry
 
-.. |userdoc_fig_5_1_1_ImportMetadata| image:: media/userdoc_fig_5_1_1_ImportMetadata.png
+.. |userdoc_fig_5_1_1_NRWImportMetadata| image:: media/userdoc_fig_5_1_1_NRWImportMetadata.png
 .. |userdoc_fig_5_2_1_CreateTemplate| image:: media/userdoc_fig_5_2_1_CreateTemplate.png
 .. |userdoc_fig_5_3_1_Duplicate| image:: media/userdoc_fig_5_3_1_Duplicate.png
 .. |userdoc_fig_5_5_1_DirectoryEntry| image:: media/userdoc_fig_5_5_1_DirectoryEntry.png
