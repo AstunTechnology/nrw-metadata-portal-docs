@@ -1,221 +1,119 @@
 Metadata Elements
 =================
 
-This section provides guidance with respect to each of the UK Gemini elements. Section headings refer to the label present in the editing form of 
-`spatialdata.gov.scot <https://www.spatialdata.gov.scot>`__, however, UK Gemini and INSPIRE equivalents are also provided. Links to full element guidance from the AGI are given, which includes information
-on known common errors. Images are provided showing example entries for each of the elements.
+This section provides guidance to elements included in the NRW Metadata Schema which are derived from UK Gemini and MEDIN metadata standards. Each Section contains the title of the elements and a descriptions of what should be entered into each element.
 
-Users may also wish to consult the full `UK Gemini 2.3 specification <https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series>`__.
+Users may also wish to consult the full `UK Gemini 2.3 specification <https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series>`__. and 'MEDIN 3.1.2 Guidance Notes <https://medin.org.uk/sites/medin/files/documents/MEDIN_Schema_Documentation_3_1_2_full-1.pdf>'__.
 
-Defining INSPIRE compliance
----------------------------
 
-To define within the metadata if a dataset is compliant with INSPIRE, users should ensure the **Keyword** section is completed. If the dataset is 
-covered by INSPIRE (e.g. parts of it are within the Scope of an INSPIRE Annex data specification), then the **first keyword** should be from the 
-`GEMET INSPIRE themes <http://www.eionet.europa.eu/gemet/en/inspire-themes/>`__ keyword list.
+Unique Resource Identifer (URI)
 
-If another controlled vocabulary is used as the first keyword, such as the `Integrated Public Sector Vocabulary (IPSV) <http://id.esd.org.uk/list/subjects>`__, 
-then the dataset is not covered by INSPIRE. That said, the dataset and service metadata will still be required to comply with the operation and 
-service commitments, as set out in the `Registered user obligations <UserDoc_Chap4_Users.html#registered-user-obligations>`__ section.
+--------
+
+The URI allows a data resource to be identified.  The number should be auto-generated when you create a record and may contain two possible prefix. The Prefix for datasets owned by NRW is NRW_DS and if it is a Third-Party Dataset it should be EXT_DS.
+
+*Note: Users should take care in ensuring they use the correct URI number and not create a number that is not given to them in the data entry process.*
+
+Title
+--------
+
+The title is the name that the dataset is commonly known by. It should be given a brief title that describes its contents. This will include the data subject, geographic extent, and date range. For datasets about species include the common name and then the scientific name.  Avoid file names, underscores, jargon, or acronyms.
+
+There are two boxes in Data Discovery for this element, one for English and one for the welsh translation of the title if it is known. 
+
+Alternative Title
+--------
+This should include any other names for the dataset including acronyms or any other name the dataset can be referenced by. For single datasets you can include the exact file name used in the corporate store where the data is held such as AreasofOustandingNaturalBeauty.lyr. If you want to add more alternative title's then please select the **+** sign to add more.
+
+*Note: For Security reasons please do not include the full file-path of the dataset.
+
+Dataset Language
+--------
+This is the language used in the dataset and not the language used for the metadata. These are from a controlled vocabulary but most instanced will use either Welsh or English.
 
 Abstract
 --------
-:Gemini: `Abstract <https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#4>`__
-:INSPIRE: Resource abstract
-:ISO19115:  MD_Identification.abstract
-:Obligation: Mandatory
-:occurrence: One
-
-:Definition:
-	A brief narrative summary of the data resource.
-
-:Guidance:
-	Provide a clear and concise statement of the content of the dataset and its purpose (i.e. the 'what' and 'why' aspect of the dataset). General 
-	background information should not be included, and unexplained abbreviations and jargon should be avoided. The abstract description should be 
-	understood by non-experts. 
+This is a brief narrative summary describing content of the data resource. The abstract should provide a clear and brief statement of the content of the data resource.  Include what has been recorded/mapped, what form the data takes, what purpose it was collected for, and any limiting information, e.g., limits or caveats on the use and interpretation of the data.  It is recommended that acronyms and abbreviations are reproduced in full (i.e., use Natural Resources Wales instead of NRW). If you have a translation of the abstract then this can be included in the box which has **Cymraeg**.
 	
 	*Note: with Gemini 2.3 there is now a requirement for the abstract to be at least 100 characters long, and to be different from the* `title <#title>`__ *element. Validation will display an error if these conditions are not met.*
 
-|userdoc_fig_7_1_1_Abstract|
+Lineage
+--------
+Lineage element should be used to document additional information about the background or history of the data resource and can include data quality statements.  The element can include information about source material; data collection methods; data processing methods; quality control processes and may be useful in determining its fitness for purpose.  
 
+Any specific information warnings should be added here.
+
+If there is separate documentation that contains a methodology (e.g., a Science Report, Standard Operating Procedure (SOP) or data processing notes) then this document should be referenced in the Additional Information Source Element
 
 Additional information
 ----------------------
-:Gemini: `Additional information <https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#27>`__
-:INSPIRE: supplemental information
-:ISO19115:  MD_Identification > MD_DataIdentification.supplementalInformation
-:Obligation: Optional
-:occurrence: One
+Any reference to external information that are considered useful, e.g., NRW Evidence Report title, Standard Operating Procedure (SOP), project website.  This should NOT be the web site or service where the data is published as that information is recorded in the element "Resource Locator"
 
-:Definition:
-	Other descriptive information about the data resource.
-
-:Guidance:
-	Record relevant information that does not clearly belong in any other element. A URL may be entered to reference other documents. Do **not** use it to describe how to access the resource (this should be in the `resource locator <#resource-locator>`__ element), or for any restrictions on access or use (use the `limitations on public access <#limitations-on-public-access>`__ and `use constraints <#use-constraints>`__ elements). If this element is not visible in the editor, switch to advanced editing view, and the Identification info tab, and use the "Additional information" button at the bottom of the page.
-
-|userdoc_fig_7_26_1_SupplementalInformation|
-
-
-Alternative title
------------------
-:Gemini: `Alternative title <https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#2>`__
-:INSPIRE: n/a
-:ISO19115: MD_DataIdentification.citation > CI_Citation.alternateTitle
-:Obligation: Optional
-:occurrence: Many
-
-:Definition:
-	Any short name, other name, acronym or alternative language title by which the data resource is known.
-
-:Guidance:
-	This element should be used to record alternative titles by which the data resource is known, such as historical names, commonly used 
-	abbreviations and acronyms. It can also be helpful to include title with spatial or temporal coverage if applicable. Entries should remain short
-	and concise.
-	
-	If the element is not visible in the default view of the editing form, it can be added by `switching to advanced view <UserDoc_Chap6_Edit.html#changing-the-editing-view>`__ 
-	and clicking the |button_edit_plus| button.
-
-|userdoc_fig_7_2_1_AlternativeTitle|
-
-Character encoding
-------------------
-:Gemini: `Character encoding <https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#51>`__
-:INSPIRE: Character encoding (metadata/2.0/req/isdss/character-encoding)
-:ISO19115: MD_DataIdentification.characterSet 
-:Obligation: Conditional (mandatory if not UTF-8)
-:occurence: Many
-
-:Definition:
-	The character encoding used in the dataset.
-
-:Guidance:
-	This element enables data in non-standard character encodings to be handled. By default the encoding is set to UTF8, but other options are available using the dropdown list. The majority of users will not need to change this element.
-
-|userdoc_fig_7_30_1_CharacterEncoding|
-
-
-Data format
--------------------
-:Gemini: `Data format <https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#21>`__
-:INSPIRE: Data encoding
-:ISO19115: MD_Distribution.distributionFormat > MD_Format
-:Obligation: Mandatory
-:occurrence: Many
-
-:Definition:
-	The format(s) in which the digital data is available.
-
-:Guidance:
-	The name of the format and the version can be selected from common options listed in the drop down menu. Otherwise, entries should 
-	be recognised formats for data transfer, either standard or proprietary. If the data is not transferable (e.g. view only), then this should be 
-	stated. Recommended best practice is to select a value from a controlled vocabulary, such as `PRONOM <http://www.nationalarchives.gov.uk/PRONOM/Default.aspx>`__. 
-
-|userdoc_fig_7_7_1_DistributionFormat|
-
-
-Data quality
----------------------------------
-:Gemini: `Data quality <https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#52>`__
-:INSPIRE: Topological consistency. Other types are specified in the data specifications
-:ISO19115: DQ_DataQuality.report->DQ_Element
-:Obligation: Conditional. Consult Gemini Guidance.
-:occurrence: Many
-
-:Definition:
-	Quantitative aspects of data quality. To allow quantitative description of the completeness, consistency, accuracy, and correctness of the data
-
-:Guidance:
-	This element comprises two sub-elements:
-
-	**1|** `Scope <#data-quality-scope>`__ - the specific data to which the data quality information applies.
-
-	**2|** `Conformity <#data-quality-conformity>`__ - the product specification being assessed against (e.g. conformance to INSPIRE).
-
-	At least one data quality element must be scoped to the entire data set or series that the metadata refers to. Other quality measures, for example relating to specific feature types may be provided in addition. To add additional Data Quality elements, `switch to advanced view <UserDoc_Chap6_Edit.html#changing-the-editing-view>`__ 
-	and click the |button_edit_plus| button at the base of the page.
-	
-
-Data quality - Conformity
----------------------------------
-:Gemini: `Conformity <https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#41>`__
-:INSPIRE: Conformity - degree
-:ISO19115: DQ_DataQuality > DQ_Element.result > DQ_ConformanceResult
-:Obligation: Mandatory
-:occurrence: Many
-
-:Definition:
-	A sub-element of `Data quality <#data-quality>`__, this is the degree of conformity with the product specification or user requirement against which the data is 
-	being evaluated (i.e. degree of conformity to INSPIRE).
-
-:Guidance:
-	At least one conformity statement shall be to an INSPIRE specification, even if to simply say that the data set is not conformant or not tested. Template snippets for INSPIRE Spatial data sets, Network services and Spatial data services have been provided. Use the *Search for a quality report...* search box at the bottom of the element to choose the appropriate one.
-
-	To record that a data set or service has not been evaluated, for the Degree choose '**Not evaluated**'. Otherwise choose '**Conformant**' or '**Not conformant**' as appropriate.
-
-	To record conformance against an additional report, switch to the Advanced editing view, change to the Quality tab and add a new report using the plus button within the appropriate `Data quality <#data-quality>`__ element.
-
-Data quality - Quality scope
----------------------------------
-:Gemini: `Quality Scope <https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#48>`__
-:INSPIRE: metadata/2.0/req/datasets-and-series/one-data-quality-element
-:ISO19115: DQ_DataQuality.scope
-:Obligation: Mandatory
-:occurrence: Many
-
-:Definition:
-	A sub-element of `Data quality <#data-quality>`__, this is specific scope to which the data quality assessment applies.
-
-:Guidance:	
-    At least one `Data quality <#data-quality>`__ element scoped to the entire dataset or series to which the metadata record refers. For a dataset, set quality scope to '**dataset**', for a dataset series, set quality scope to '**series**'.
-    
-    If using a `Data quality <#data-quality>`__ element to describe something other than the whole dataset or series, then provide additional data quality elements with their scope set appropriately. Switch to the Advanced editing view, change to the Quality tab, and Data Quality info element using the plus button at the base of the page. Set the quality scope to the appropriate level using the dropdown list.
-
-|userdoc_fig_7_4_1_ConformanceResult|
-	
-	
-Dataset language
-----------------
-:Gemini: `Dataset language <https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#3>`__
-:INSPIRE: Resource language
-:ISO19115: MD_DataIdentification.language
-:Obligation: Conditional
-:occurrence: Many
-
-:Definition:
-	The language used within the dataset (assuming the data resource contains text/written information, e.g. in attribute tables).
-
-:Guidance:
-	Select a language from the drop down menu listing entries from the ISO 639-2 code list.  For INSPIRE compliance, this has to be an 
-	`official language of the European Community <http://ec.europa.eu/languages/policy/linguistic-diversity/official-languages-eu_en.htm>`__, 
-	of which English (eng) is the only one in common use across the UK (and is the default). For non-INSPIRE metadata records, it can 
-	be any ISO 639-2 three letter code, of which the relevant entries for the UK are English (eng), Welsh (cym), Gaelic (Irish) (gle), Gaelic 
-	(Scottish) (gla), Cornish (cor), Ulster Scots (sco).
-
-|userdoc_fig_7_13_1_DatasetLanguage|
-
+You may include a specialist contact at NRW.  Only post details should be provided and not names and contact details. 
 
 Dataset reference date
 ----------------------
-:Gemini: `Dataset reference date <https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#8>`__
-:INSPIRE: Date of publication
-:ISO19115: MD_Identification.citation > CI_Citation.date
-:Obligation: Mandatory
-:occurrence: Many
+This element can inlclude up to 3 different Date Types.
 
-:Definition:
-	Reference date for the data resource, indicating the date of publication, creation and/or last revision. Note that for services, this 
-	date relates to the creation, publication, and/or revision of the service, not the dataset(s) within it.)
+**Creation Date** refers to the date the dataset was created or if the creation date is not known use the date it was first made available to staff.
 
-:Guidance:
-	This element is a notional date of publication of the data resource. It is different from the `temporal extent <#extent-temporal-extent>`__, 
-	which is the date of currency of the resource. Multiple dataset reference dates can be defined, but there must only be one of type *creation* and only one of type *revision*.
-	
-	Dates may be to any degree of precision, from year (YYYY) to full date and time. The extended date format (YYYY-MM-DD) should be used, where YYYY is 
-	the year, MM the month, and DD the day. If required, time (HH:MM:SS, where HH is the hour, MM the minute, and SS the second) may be added, with 
-	'T' separating the two parts.
+**Publication Date** is when the data is published externally for download i.e. on DataMapWales, NBN or other approved NRW publishing mechanism. This should be updated on the occurance of a published dataset being updated.
 
-|userdoc_fig_7_6_1_ReferenceDate|
+**Revision Date** is when the dataset has been updated and a new version has been created. This should only be used once and the date changed for each update to the dataset.
 
+Temporal Extent
+-------------------
+This is the date or date range of the period of collection of the data.  Include start date and end date of survey or data capture period. 
+
+For some data resources data collection, may be continuous.  In these cases, the end date may be left blank.  This should only be applied where data is updated on a frequency greater than quarterly.
+
+Resource Maintenance and Update Frequency
+-------------------
+This is the frequency with which modifications and deletions are made to the data resource after it was first produced. The element is created as part of a controlled vocabulary and you shoud choose the appropriate frequency from the drop down list. If the update cycle is unknown, please choose '**Unknown**' from the list.
+
+NRW Internal Location
+-------------------
+This should be the corporate data store name or archived location; file pathway should only be used if not in a corporate store or archive.  This information is required to aid internal data management.  For Spatial data please include the location of the data layers on the X: Drive
+
+NRW Internal Custodian
+-------------------
+The internal staff member or team that is identified as the Data Custodian for the data resource.  This should be the person or team who take local responsibility for either its creation, maintenance or can answer questions about the content of the data resource.
+
+Topic Category
+-------------------
+A basic classification for the data resource.  Select one or more categories that most closely represent the topic of the data resource from the controlled vocabulary. 
+
+Keywords - NRW Thesaurus
+-------------------
+Please include any keywords which you think help identify the dataset and increase its the data's discovarability. This can include species names, survey types, locations such as SSSI's or other protected site designations. 
+
+To add a keyword from the NRW Thesaurus you will need to select the book icon and select **NRW Thesaurus** a search box will then be opened for you to search for the relevant keyword. 
+
+*Note: If you cant find a suitable keyword which you would like adding please contact your Data Discovery Administrator and they can add it for you.*
+
+Keywords - GEMET INSPIRE themes
+-------------------
+All geospaital datasets should contain at least one INSPIRE theme keyword. Keywords are from a controlled vocabulary and can be selected by clicking the box and scrolling through the term list or searching for the theme in the search box. 
+
+Keywords - SeaDataNet Parameter Discovery Vocabulary
+-------------------
+All datasets that are Marine Data Resources should ensure they have one of these keywords from the controlled vocabulary.
+
+To add a keyword from the NRW Thesaurus you will need to select the book icon and select **SeaDataNet Parameter Discovery Vocabulary** a search box will then be opened for you to search for the relevant keyword. 
+
+Responsible Organisations
+-------------------
+This element Details the organisation(s) responsible for the establishment, management, maintenance, and distribution of the data resource. For each metadata record at least one of the below organisation types should be recorded except **Custodian** which is just for use with Marine datasets. In some cases multipe organisations can be listed for each element.E.g. a data resource was created in joint partnership between NRW and Welsh Government then both would be the originator or owner.
+
+To add an organisation you will need to search the name of the organisation in the search box. Once you have found the organisation you can select the "+" symbol and click what organisation type they belong to.
+
+**Owner** Data Discovery also contains Third-Party datasets so it is important to capture the owner of the data resource. If the data has been collected by a contractor/surveyor under contract, then NRW should be entered as Owner not the contractor.
+
+**Originator** This element requires who recorded the original data. Much of NRW data is collected under contract or by third parties as well as dedicated teams, it is important to document who captured the data as this lends to an assessment of quality of the data. 
+
+**Distributor** Who is the responsible organisation for releasing the data where applicable.
+
+**Custodian** Who is the organisaion responsible for maintaining the data resource.
 
 Extent - Geographic bounding box
 --------------------------------
@@ -255,39 +153,7 @@ Extent - Geographic description
 
 |userdoc_fig_7_9_1_GeogDescription|
 
-Extent - Temporal extent
-------------------------
-:Gemini: `Temporal extent <https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#7>`__
-:INSPIRE: Temporal extent
-:ISO19115: EX_Extent > EX_TemporalExtent.extent
-:Obligation: Mandatory (dataset), Conditional (service)
-:occurrence: Many
 
-:Definition:
-	This is the date(s) that describes the time period covered by the content of the dataset.  It may refer to (a) the period of collection of the 
-	data or (b) the date at which it is deemed to be current. Temporal extent is the date of the validity of the data, and is different from the 
-	`dataset reference date <#date>`__ (i.e. publication).
-
-:Guidance:
-	Enter a Begin date and/or End date as required. Click on |button_edit_calendar| to activate the calendar selector. To add additional temporal extents, use the `advanced editor view <UserDoc_Chap6_Edit.html#changing-the-editing-view>`__.
-	
-	**2|** Scroll to the extent section (identification tab) and click the |button_edit_plusdrop| button next to the **Temporal element** label.
-	
-	**3|** From the dropdown menu, select **Temporal Extent**. This will present a further |button_edit_plusdrop| button labeled **Extent**.
-	
-	**4|** From the dropdown menu, select the extent type from either time edge, instant, node or period.
-	
-	*Note: if the temporal extent is composed of a begining and an end date, select time period. If it is a single date (e.g. census day) choose time instant. The time edge and node options are not often used.*
-
-	**5|** If the time period option is chosen, use the |button_edit_plusdrop| buttons to add begining and end dates.
-	
-	Enter a date, or two dates defining the duration of the period, as defined by BS ISO 8601. Dates may be to any degree of precision, from year 
-	(YYYY) to full date and time. The extended date format (YYYY-MM-DD) should be used, where YYYY is the year, MM the month, and DD the day. If 
-	required, time (HH:MM:SS, where HH is the hour, MM the minute, and SS the second) may be added, with 'T' separating the two parts. Periods are 
-	recorded as {fromdate/todate} (e.g. 2006-04-01/2007-03-31).  Either the from date or the to date (but not both) of the time period may be left 
-	blank to indicate uncertainty.
-
-|userdoc_fig_7_10_1_TemporalExtent|
 
 Extent - Vertical extent
 ------------------------
@@ -813,47 +679,3 @@ Use constraints
 	or `INSPIRE End User Licence <https://www.ordnancesurvey.co.uk/documents/licensing/inspire-end-user-licence.pdf>`__. 
 	Users can further categorise their records in terms of licence type by following the guidance in the `assigning a licence category <UserDoc_Chap6_Edit.html#assigning-a-licence-category>`__ section.
 
-|userdoc_fig_7_29_1_UseConstraints|
-
-.. |userdoc_fig_7_1_1_Abstract| image:: media/userdoc_fig_7_1_1_Abstract.png
-.. |userdoc_fig_7_2_1_AlternativeTitle| image:: media/userdoc_fig_7_2_1_AlternativeTitle.png
-.. |userdoc_fig_7_3_1_CitationIdentifier| image:: media/userdoc_fig_7_3_1_CitationIdentifier.png
-.. |userdoc_fig_7_4_1_ConformanceResult| image:: media/userdoc_fig_7_4_1_ConformanceResult.png
-.. |userdoc_fig_7_5_1_HierarchyLevel| image:: media/userdoc_fig_7_5_1_HierarchyLevel.png
-.. |userdoc_fig_7_6_1_ReferenceDate| image:: media/userdoc_fig_7_6_1_ReferenceDate.png
-.. |userdoc_fig_7_7_1_DistributionFormat| image:: media/userdoc_fig_7_7_1_DistributionFormat.png
-.. |userdoc_fig_7_8_1_GeogBoundingBox| image:: media/userdoc_fig_7_8_1_GeogBoundingBox.png
-.. |userdoc_fig_7_9_1_GeogDescription| image:: media/userdoc_fig_7_9_1_GeogDescription.png
-.. |userdoc_fig_7_10_1_TemporalExtent| image:: media/userdoc_fig_7_10_1_TemporalExtent.png
-.. |userdoc_fig_7_11_1_VerticalExtent| image:: media/userdoc_fig_7_11_1_VerticalExtent.png
-.. |userdoc_fig_7_12_1_Keywords| image:: media/userdoc_fig_7_12_1_Keywords.png
-.. |userdoc_fig_7_13_1_DatasetLanguage| image:: media/userdoc_fig_7_13_1_DatasetLanguage.png
-.. |userdoc_fig_7_14_1_LimitationsPublicAccess| image:: media/userdoc_fig_7_14_1_LimitationsPublicAccess.png
-.. |userdoc_fig_7_15_1_Lineage| image:: media/userdoc_fig_7_15_1_Lineage.png
-.. |userdoc_fig_7_16_1_UpdateFrequency| image:: media/userdoc_fig_7_16_1_UpdateFrequency.png
-.. |userdoc_fig_7_17_1_MetadataContact| image:: media/userdoc_fig_7_17_1_MetadataContact.png
-.. |userdoc_fig_7_18_1_MetadataDate| image:: media/userdoc_fig_7_18_1_MetadataDate.png
-.. |userdoc_fig_7_19_1_MetadataHierarchyLevel| image:: media/userdoc_fig_7_19_1_MetadataHierarchyLevel.png
-.. |userdoc_fig_7_20_1_MetadataLanguage| image:: media/userdoc_fig_7_20_1_MetadataLanguage.png
-.. |userdoc_fig_7_21_1_OnLineResource| image:: media/userdoc_fig_7_21_1_OnLineResource.png
-.. |userdoc_fig_7_22_1_PointofContact| image:: media/userdoc_fig_7_22_1_PointofContact.png
-.. |userdoc_fig_7_23_1_ReferenceSystem| image:: media/userdoc_fig_7_23_1_ReferenceSystem.png
-.. |userdoc_fig_7_24_1_SpatialResDistance| image:: media/userdoc_fig_7_24_1_SpatialResDistance.png
-.. |userdoc_fig_7_25_1_SpatialResEqScale| image:: media/userdoc_fig_7_25_1_SpatialResEqScale.png
-.. |userdoc_fig_7_26_1_SupplementalInformation| image:: media/userdoc_fig_7_26_1_SupplementalInformation.png
-.. |userdoc_fig_7_27_1_Title| image:: media/userdoc_fig_7_27_1_Title.png
-.. |userdoc_fig_7_28_1_TopicCategory| image:: media/userdoc_fig_7_28_1_TopicCategory.png
-.. |userdoc_fig_7_29_1_UseConstraints| image:: media/userdoc_fig_7_29_1_UseConstraints.png
-.. |userdoc_fig_7_30_1_CharacterEncoding| image:: media/userdoc_fig_7_30_1_CharacterEncoding.png
-.. |userdoc_fig_7_31_1_FileIdentifier| image:: media/userdoc_fig_7_31_1_FileIdentifier.png
-.. |userdoc_fig_7_32_1_MetadataStandard| image:: media/userdoc_fig_7_32_1_MetadataStandard.png
-.. |userdoc_fig_7_33_1_ParentIdentifier| image:: media/userdoc_fig_7_33_1_ParentIdentifier.png
-.. |userdoc_fig_7_34_1_SpatialRepresentationType| image:: media/userdoc_fig_7_34_1_SpatialRepresentationType.png
-.. |button_edit_plus| image:: media/button_edit_plus.png
-.. |button_edit_delete| image:: media/button_edit_delete.png
-.. |button_edit_plusdrop| image:: media/button_edit_plusdrop.png
-.. |button_edit_selectthesaurus| image:: media/button_edit_selectthesaurus.png
-.. |button_edit_addkeyword| image:: media/button_edit_addkeyword.png
-.. |button_edit_addparent| image:: media/button_edit_addparent.png
-.. |button_edit_verticalextent| image:: media/button_edit_verticalextent.png
-.. |button_edit_calendar| image:: media/button_edit_calendar.png
