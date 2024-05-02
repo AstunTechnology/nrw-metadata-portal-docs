@@ -31,7 +31,7 @@ Quick searches on the portal can be performed directly from the home page using 
 
 *Note: To search using the metadata's Unique Resource Identifier and to create a wildcare search you can use the asterisk key. For precise search results use " " in your search e.g."Areas of Outstanding Natural Beauty".
 
-|userdoc_fig_2_2_1_BasicSearch|
+|userdoc_fig_2_2_1_NRWBasicSearch|
 
 **Figure 2.2.1:** A basic search from the home page
 
@@ -67,16 +67,15 @@ selection users can choose to export the results to a zip, pdf or csv file. Note
 such as `publish <UserDoc_Chap5_Edit.html#publishing-metadata>`__ (if they have Reviewer privileges) or `delete <UserDoc_Chap5_Edit.html#deleting-metadata>`__
 (if they have Editor privileges), or submit for approval on selected records.
 
-|userdoc_fig_2_4_1_SortOptions| |userdoc_fig_2_4_1_SelectOptions|
+|userdoc_fig_2_4_1_NRWSortOptions| 
 
-**Figure 2.4.1:** Sort and select options
+**Figure 2.4.1:** Sort options
 
 .. |userdoc_fig_2_1_1_Home| image:: media/userdoc_fig_2_1_1_Home.png
-.. |userdoc_fig_2_2_1_BasicSearch| image:: media/userdoc_fig_2_2_1_BasicSearch.png
+.. |userdoc_fig_2_2_1_NRWBasicSearch| image:: media/userdoc_fig_2_2_1_NRWBasicSearch.png
 .. |userdoc_fig_2_2_2_SearchResults| image:: media/userdoc_fig_2_2_2_SearchResults.png
 .. |userdoc_fig_2_3_1_AdvancedSearch| image:: media/userdoc_fig_2_3_1_AdvancedSearch.png
-.. |userdoc_fig_2_4_1_SortOptions| image:: media/userdoc_fig_2_4_1_SortOptions.png
-.. |userdoc_fig_2_4_1_SelectOptions| image:: media/userdoc_fig_2_4_1_SelectOptions.png
+.. |userdoc_fig_2_4_1_NRWSortOptions| image:: media/userdoc_fig_2_4_1_NRWSortOptions.png
 .. |userdoc_fig_3_1_1_DefaultViewA| image:: media/userdoc_fig_3_1_1_DefaultViewA.png
 .. |button_contribute| image:: media/button_contribute.png
 .. |button_adminconsole| image:: media/button_adminconsole.png
