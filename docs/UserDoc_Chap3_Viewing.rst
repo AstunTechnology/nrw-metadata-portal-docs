@@ -37,12 +37,12 @@ Metadata records can be exported from Data Discovery via the download icon menu 
 
 Data Discovery also has the abiltiy to download multiple metadata records at once in the same formats listed above. To do this you can search for the datasets you require to download and tick the small box to the left of the dataset title. Once you have selected all the records you want to export you can click the **selected** button alongside the page numbering and then select which download format you would like. 
 
-|userdoc_fig_3_2_1_ExportMetadata|
+|userdoc_fig_3_2_1_NRWExportMetadata|
 
 
 
 .. |userdoc_fig_3_1_1_DefaultViewA| image:: media/userdoc_fig_3_1_1_DefaultViewA.png
-.. |userdoc_fig_3_2_1_ExportMetadata| image:: media/userdoc_fig_3_2_1_ExportMetadata.png
+.. |userdoc_fig_3_2_1_NRWExportMetadata| image:: media/userdoc_fig_3_2_1_NRWExportMetadata.png
 .. |userdoc_fig_3_3_1_AddtoMapSearch| image:: media/userdoc_fig_3_3_1_AddtoMapSearch.png
 .. |userdoc_fig_3_3_2_AddtoMapRecordView| image:: media/userdoc_fig_3_3_2_AddtoMapRecordView.png
 .. |userdoc_fig_3_3_3_AddtoMapMapPage| image:: media/userdoc_fig_3_3_3_AddtoMapMapPage.png
