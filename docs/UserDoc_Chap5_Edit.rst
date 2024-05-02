@@ -194,7 +194,7 @@ To delete a metadata record:
 
 	*Note: the record may still appear in the list until the page is refreshed.*
 
-|userdoc_fig_6_10_1_DeleteRecordConfirm|
+|userdoc_fig_6_10_1_NRWDeleteRecordConfirm|
 
 **Figure 6.10.1:** Confirmation requested to delete a metadata record
 
@@ -216,7 +216,7 @@ to have records deleted from `data.gov.uk <http://data.gov.uk/>`__.
 .. |userdoc_fig_6_6_1_ValidationPanel| image:: media/userdoc_fig_6_6_1_ValidationPanel.png
 .. |userdoc_fig_6_8_1_PrivilegesPanel| image:: media/userdoc_fig_6_8_1_PrivilegesPanel.png
 .. |userdoc_fig_6_8_2_PrivilegesRecordView| image:: media/userdoc_fig_6_8_2_PrivilegesRecordView.png
-.. |userdoc_fig_6_10_1_DeleteRecordConfirm| image:: media/userdoc_fig_6_10_1_DeleteRecordConfirm.png
+.. |userdoc_fig_6_10_1_NRWDeleteRecordConfirm| image:: media/userdoc_fig_6_10_1_NRWDeleteRecordConfirm.png
 .. |button_contribute| image:: media/button_contribute.png
 .. |button_contribute_pencil| image:: media/button_contribute_pencil.png
 .. |button_edit_toc| image:: media/button_edit_toc.png
