@@ -19,6 +19,7 @@ Welcome to Natural Resources Wales Metadata catalog documentation
    UserDoc_Chap3_Viewing
    UserDoc_Chap4_Create
    UserDoc_Chap5_Edit
+   Metadata_Elements
 
 .. _admin-docs:
 .. toctree::
