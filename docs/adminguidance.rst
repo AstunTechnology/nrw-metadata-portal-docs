@@ -82,12 +82,12 @@ To act on multiple metadata records, use the select function and choose the appr
 * Update privilges- note that this will **UPDATE** privileges rather than **APPEND** to existing ones
 * Publish/Unpublish- add or remove the "publish" privilege from the "All" group
 * Transfer Ownership
+* Submit - this is to submit for approval
+* Approve - For reviewers and editors to publish multiple records.
 * Validate
 * Validate record links
-* Update licence
 * Delete
 * Index records
-* Create collection from selection as - create a series from the selected records
 
 |image-6|
 
