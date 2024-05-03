@@ -27,6 +27,13 @@ The development of such schemas tends to be controlled through community consens
 
 The UK Geospatial Metadata Interoperability Initiative (`GEMINI <https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini>`__ ) is the UK’s geographic metadata standard. It was originally produced through a collaboration between the Association for Geographic Information (AGI), the e-Government Unit (eGU) and the UK Data Archive. An application profile of ISO 19115, UK GEMINI is conformant with the INSPIRE Technical Guidance and designed to meet the requirements of INSPIRE in a UK context.
 
+The MEDIN Discovery Metadata Standard is a marine profile of the UK government Standard GEMINI2 and also complies with other international conventions such as INSPIRE and ISO19115.
+
+Currently, MEDIN has two versions of its Metadata Standard available to users.
+
+These are: (a) v2.3.8, which has been in use for a number of years and (b) v3.1.2, recently updated by MEDIN to comply with the updated GEMINI v2.3 UK geospatial standard.
+
+NRW Currently adopt a Natural Resources Wales metadata schema which was created to include both of the above metadata standards.
 
 Why create metadata?
 --------------------
@@ -46,11 +53,3 @@ Data can only be useful if it can be interpreted and understood, and can only be
 * Inspiring trust in the data source
 
 When effort and resource is put into the provision of standard compliant metadata, organisations will be better placed to find, assess and make use of the data that is available to them – particularly in times of national emergency - saving time, money and lives.
-
-
-Why use UK Gemini?
-------------------
-
-`UK GEMINI <https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini>`__ is the designated standard for geographic metadata in the United Kingdom. It ensures consistency with respect to metadata across the UK through content guidance and the use of UK specific terms and code lists. UK Gemini also  simplifies the INSPIRE Technical Guidance making it easier for organisations to achieve compliance.
-
-While ensured compliance to regulations is important, the key benefit is the interoperability the standard allows across a range of platforms. Metadata in the Gemini format can be shared and consumed easily by a number of platforms and third party applications. Gemini is a requirement for the data.gov.uk portal and, with version 2.3, can now be consumed by the ESRI ArcGIS platform without the need of additional plugins.
