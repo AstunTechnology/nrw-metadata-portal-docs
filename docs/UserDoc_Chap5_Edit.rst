@@ -68,45 +68,6 @@ To change the view of editing session:
 
 **Figure 6.3.1:** Advanced editing and XML view
 
-Assigning a licence category
-----------------------------
-
-Records can be classified based on their licence type (i.e. Open Government, Non-commercial Government, INSPIRE or other) using the
-assign category function. This classification can be done either in an editing session, via the contribute board, or when a record is imported
-into the `Natural Resources Wales Metadata catalog <https://metadata.naturalresources.wales/geonetwork>`__.
-
-To assign or change the licence category in an editing session:
-
-	**1|** Click on |button_edit_category| in the header.
-
-	**2|** From the dropdown menu, check the appropriate licence type (Open Government, Non-commercial, INSPIRE or other).
-
-	**3|** Click anywhere to dismiss the menu.
-
-|userdoc_fig_6_4_1_LicenceCategory|
-
-**Figure 6.4.1:** Assigning a licence category in an editing session
-
-To assign or change the licence category via the contribute board:
-
-	**1|** Click on |button_contribute| in the header.
-
-	**2|** Click the |button_editor_board| button. This will enable the **Editor** board, where all records the user has access to will be listed.
-
-	**3|** In the record list, select the record(s) for which the licence category will assigned or amended.
-
-	*Note: the licence category can be updated for multiple records at a time.*
-
-	**4|** Click the dropdown labelled 'selected' at the top left of the record list and choose 'Update licence' from the list. This will display the licence categories dialog.
-
-	**5|** From the menu, check the appropriate licence type (Open Government, Non-commercial, INSPIRE or other).
-
-	**6|** Click |button_contribute_replace| to apply the changes.
-
-The licence category can also be assigned using the appropriate option when importing a record. For those organisations which harvest
-their metadata records into the portal, a default licence type can be selected for all records, though any records that differ from the default setting
-would need to be amended post harvest.
-
 
 Validating metadata
 -------------------
