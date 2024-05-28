@@ -8,7 +8,7 @@ How accessible this website is
 
 We know some parts of this website are not fully accessible:
 
--  Not all non-text content is available in text form, for example not all images have "alt" attributes
+-  Not all non-text content is available in text form, for example not all images or maps have "alt" attributes
 -  Not all content can be rendered using assistive technology
 -  Downloadable PDF's are not accessible for screen reader software of lacks a text alternative, however, the information is available in other accessible formats
 -  Some elements such as links are distinguishable only by colour
