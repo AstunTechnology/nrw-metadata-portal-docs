@@ -10,6 +10,7 @@ We know some parts of this website are not fully accessible:
 
 -  Not all non-text content is available in text form, for example not all images have "alt" attributes
 -  Not all content can be rendered using assistive technology
+-  Downloadable PDF's are not accessible for screen reader software of lacks a text alternative, however, the information is available in other accessible formats
 -  Some elements such as links are distinguishable only by colour
 -  Not all pages have titles or descriptions that adequately describe their purpose
 -  Not all links have a purpose that can be determined by the link text alone
