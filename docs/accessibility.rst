@@ -3,39 +3,61 @@ Accessibility
 
 This website is hosted and maintained by `Astun Technology <https://astuntechnology.com/>`__ on behalf of the `Natural Resources Wales <https://naturalresources.wales/>`__. We want `Natural Resources Wales Metadata <https://metadata.naturalresources.wales/>`__ to be accessible and usable for as many people as possible.
 
-How accessible this website is
+Accessibility Statement
 ------------------------------
 
-We know some parts of this website are not fully accessible:
+This accessiblity statement applies to NRWs DataDiscovery Service
 
--  Not all non-text content is available in text form, for example not all images or maps have "alt" attributes
--  Not all content can be rendered using assistive technology
--  Downloadable PDF's are not accessible for screen reader software of lacks a text alternative, however, the information is available in other accessible formats
--  Some elements such as links are distinguishable only by colour
--  Not all pages have titles or descriptions that adequately describe their purpose
--  Not all links have a purpose that can be determined by the link text alone
+The website is hosted and maintained by Astun Technology on behalf of Natural Resources Wales. We want Natural Resources Wales Discovery Metadata to be accessible and usable for as many people as possible.
+
+We want as many people as possible to be able to use this website. For example, that means you should be able to:
+
+-  change colours, contrast levels and fonts
+-  zoom in up to 300% without the text splitting off the screen
+-  navigate most of the wesbite using just a keyboard.
+-  navigate most of the website using speech recognition software
+-  listen to most of the website using a screen reader (including the most recent versions of JAWS, NVDA and VoiceOver
 -  Entering data into controls does not always have a predictable effect, nor are consistent instructions provided on their use
 
+We've also made the website text as simple as possible to understand.
 
-Feedback
+`AbilityNet <https://mcmw.abilitynet.org.uk/>`__ has advice on making your device easier to use if you have a disability
+
+
+How accessible this website is
 --------
 
-If you cannot access any part of this site or want to report an accessibility problem, please  `tell us <mailto:opendata@cyfoethnaturiolcymru.gov.uk?subject=Data%20Discovery%20Enquiry>`__.
+We know some parts of this website are not fully accessible, for example:
 
-`AbilityNet <https://mcmw.abilitynet.org.uk/>`__ has advice on making your device easier to use if you have a disability.
+- not all content or status warnings can be rendered using assistive technology
+- donwloadable PDFs are not accessible for screen reader software or their non-textual elements, e.g., maps or tables, lack of a text alternative
+- some text may lack contrast with the background
+- rendering or scrolling issues may occur when zooming above 200%
+- some elements or functions are not accessible using only bthe keyboard
 
 
-Enforcement procedure
+
+Feedback and Contact Information
 ---------------------
 
-The Equality and Human Rights Commission enforces the `accessibility regulations <http://www.legislation.gov.uk/uksi/2018/952/regulation/4/made>`__ (the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018).
+If you need information on this website in a different format like accessible PDF, large print, easy read, audio recording or braille:
+You can:
 
-If you're not happy with how we respond to your feedback, `contact the Equality Advisory and Support Service <https://www.equalityadvisoryservice.com/>`__. They are an independent advice service. They will advise you on what to do next.
+- call us on:                    0300 065 3000 (Monday to Friday, 9am to 5pm)
+- email us at:                   enquiries@naturalresourceswales.gov.uk 
+- write to us at:                
+                                 Natural Resources Wales,
+                                 Customer Hub,
+                                 Welsh Government Offices,
+                                 Cathays Park,
+                                 King Edward VII Avenue,
+                                 Cardiff,
+                                 CF10 3NQ
 
-Compliance statement
---------------------
+We'll consider your request and get back to you in 5 working days.
 
-Natural resources Wales commits to making its websites accessible, in accordance with the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018. This accessibility statement applies to `Natural Resources Wales Metadata <https://metadata.naturalresources.wales/>`__ and was last reviewed on 7 March 2024.
+Reporting Accessiblity problems with this website
+ --------------------
+We’re always looking to improve the accessibility of this website. If you find any problems not listed on this page or think we’re not meeting accessibility requirements, Please email the Digital Team: opendata@cyfoethnaturiolcymru.gov.uk.
 
-The site was reviewed using the SiteImprove Chrome plugin in August 2020. This website is not yet fully compliant with the `Web Content Accessibility Guidelines version 2.1 <https://www.w3.org/TR/WCAG21/>`__ (WCAG) A success criteria due to the non-compliances listed above.
 
