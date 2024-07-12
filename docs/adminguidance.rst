@@ -613,13 +613,6 @@ The settings for editing or creating a user are as follows:
 
 Figure 11.2.1: The users list and top section of user editing interface
 
-|image23|
-
-Figure 11.2.2: The middle section of the user editing interface
-
-|image24|
-
-Figure 11.2.3: The lower section of the user editing interface
 
 Settings
 ========
@@ -871,8 +864,6 @@ Note that the services don't return a result, just a blank page. Note also that 
 .. |image19| image:: media/adminimage20.png
 .. |image20| image:: media/adminimage21.png
 .. |image22| image:: media/adminimage23.png
-.. |image23| image:: media/adminimage24.png
-.. |image24| image:: media/adminimage25.png
 .. |image25| image:: media/adminimage26.png
 .. |image26| image:: media/adminimage27.png
 .. |image27| image:: media/adminimage28.png
