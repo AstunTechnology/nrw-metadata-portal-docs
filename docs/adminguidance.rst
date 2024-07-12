@@ -579,11 +579,8 @@ Figure 11.1.1: The groups list and top half of the groups editing interface
 
 Figure 11.1.2: The middle section of the groups editing interface
 
-|image21|
 
-Figure 11.1.3: The lower section of the groups editing interface (intermediate section on translations for this group name not shown)
-
-To add a new group, click the blue "New group" button below the list. This brings up the same dialogue shown in figures 11.1.1-11.1.3.
+To add a new group, click the blue "New group" button below the list. This brings up the same dialogue shown in figures 11.1.1.
 
 Manage Users
 ------------
@@ -873,7 +870,6 @@ Note that the services don't return a result, just a blank page. Note also that 
 .. |image17| image:: media/adminimage18.png
 .. |image19| image:: media/adminimage20.png
 .. |image20| image:: media/adminimage21.png
-.. |image21| image:: media/adminimage22.png
 .. |image22| image:: media/adminimage23.png
 .. |image23| image:: media/adminimage24.png
 .. |image24| image:: media/adminimage25.png
