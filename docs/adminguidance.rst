@@ -842,7 +842,7 @@ Note that the services don't return a result, just a blank page. Note also that 
 .. |image5| image:: media/adminimage06.png
 .. |image6| image:: media/adminimage07.png
 .. |image7| image:: media/adminimage08.png
-.. |image7a| image:: media/NRWadminimage08a.png
+.. |image7a| image:: media/adminimage08a.png
 .. |image7b| image:: media/adminimage08b.png
 .. |image8| image:: media/adminimage09.png
 .. |image9| image:: media/adminimage10.png
@@ -850,12 +850,12 @@ Note that the services don't return a result, just a blank page. Note also that 
 .. |image11| image:: media/adminimage12.png
 .. |image12| image:: media/adminimage13.png
 .. |image13| image:: media/adminimage14.png
-.. |image14| image:: media/NRWadminimage15.png
-.. |image14a| image:: media/NRWadminimage15a.png
+.. |image14| image:: media/adminimage15.png
+.. |image14a| image:: media/adminimage15a.png
 .. |image14c| image:: media/adminimage15c.png
 .. |image14d| image:: media/adminimage15d.png
 .. |image-1| image:: media/adminimage-1.png
-.. |image-2| image:: media/NRWadminimage-2.png
+.. |image-2| image:: media/adminimage-2.png
 .. |image-3| image:: media/adminimage-3.png
 .. |image-4| image:: media/adminimage-4.png
 .. |image-5| image:: media/adminimage-5.png
