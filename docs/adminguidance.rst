@@ -679,24 +679,6 @@ The CSW Service information setting allows the configuration of some of the GetC
 
 Figure 12.3.1: The CSW settings interface
 
-Virtual CSW
------------
-
-This subsection allows the configuration of Virtual CSW endpoints. These allow for different CSW URLs to be used within the catalogue, such as for different groups or metadata categories. 
-
-To configure a new Virtual CSW endpoint, click the blue "New Virtual CSW" button and then configure the following settings:
-
-* Name- This will be used as the URL endpoint for the virtual CSW. **This must begin with csw-**
-* Description
-* Filters/Query- the filter that should be used to decide on the records that should be published under this endpoint. Choose from the dropdown list, or use the advanced query option. The figure below shows an example endpoint for records belonging to the Aberdeen group
-
-|image28|
-
-Figure 12.4.1: Virtual CSW endpoint set up for Aberdeen group
-
-Once a virtual endpoint has been saved, it's capabilities can be checked using the link shown below in figure 12.5.1
-
-**Note that the default contact information, as configured in the CSW subsection, will be used for the GetCapabilities request**
 
 CSW test
 --------
@@ -867,7 +849,6 @@ Note that the services don't return a result, just a blank page. Note also that 
 .. |image25| image:: media/adminimage26.png
 .. |image26| image:: media/adminimage27.png
 .. |image27| image:: media/adminimage28.png
-.. |image28| image:: media/adminimage29.png
 .. |image29| image:: media/adminimage30.png
 .. |image30| image:: media/adminimage31.png
 .. |image31| image:: media/adminimage32.png
