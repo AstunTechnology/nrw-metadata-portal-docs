@@ -3,15 +3,15 @@ Privacy on the Natural Resources Metadata catalogue
 
 This notice explains how we use any personal information we collect about you when you use this website. The site, `Natural Resources Wales Metadata <https://metadata.naturalresources.wales/>`__, is provided by the `Natural Resources Wales <https://naturalresources.wales/>`__ (the *data controller*), however, we use a third party, `Astun Technology <https://astuntechnology.com/>`__, for the hosting and management of the metadata catalogue (the *data processor*).
 
-This privacy notice is kept under regular review and any updates will appear on this page. This notice was last updated on **March 7th, 2024**.
+This privacy notice is kept under regular review and any updates will appear on this page. This notice was last updated on **October 9th, 2026**.
 
 What is collected and how is it used?
 -------------------------------------
 
 When you browse the site, your **IP address** is collected and `cookies <https://cookies.insites.com/>`__ are used to monitor your session. Additionally,
-if you register as a contributer to the site you will be required to provide your **email address**. This information is used purely for the purposes of
+if you register as a contributor to the site you will be required to provide your **email address**. This information is used purely for the purposes of
 maintaining the portal, improving it based on how you use it, and notifying contributors of any changes or service interruptions. The information can
-be viewed by authorised people in the Scottish Government.
+be viewed by authorised people in the Natural Resources Wales.
 
 As noted above, we use a third party, `Astun Technology <https://astuntechnology.com/>`__, for the hosting and management of the metadata catalogue.
 To view further details about what is collected on the site and how it is used please see their `metadata privacy policy <https://www.astuntechnology.com/privacy-policy/privacy-policy-metadata/>`__.
