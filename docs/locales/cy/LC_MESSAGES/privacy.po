@@ -39,7 +39,7 @@ msgstr ""
 #: ../../privacy.rst:6
 msgid ""
 "This privacy notice is kept under regular review and any updates will "
-"appear on this page. This notice was last updated on **March 7th, 2024**."
+"appear on this page. This notice was last updated on **October 9th, 2026**."
 msgstr ""
 
 #: ../../privacy.rst:9
@@ -50,12 +50,12 @@ msgstr ""
 msgid ""
 "When you browse the site, your **IP address** is collected and `cookies "
 "<https://cookies.insites.com/>`__ are used to monitor your session. "
-"Additionally, if you register as a contributer to the site you will be "
+"Additionally, if you register as a contributor to the site you will be "
 "required to provide your **email address**. This information is used "
 "purely for the purposes of maintaining the portal, improving it based on "
 "how you use it, and notifying contributors of any changes or service "
 "interruptions. The information can be viewed by authorised people in the "
-"Scottish Government."
+"Natural Resources Wales."
 msgstr ""
 
 #: ../../privacy.rst:16
