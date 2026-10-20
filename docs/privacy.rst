@@ -1,7 +1,7 @@
 Privacy on the Natural Resources Metadata catalogue
 ===================================================
 
-This notice explains how we use any personal information we collect about you when you use this website. The site, `Natural Resources Wales Metadata <https://metadata.naturalresources.wales/>`__, is provided by the `Natural Resources Wales <https://naturalresources.wales/>`__ (the *data controller*), however, we use a third party, `Astun Technology <https://astuntechnology.com/>`__, for the hosting and management of the metadata catalogue (the *data processor*).
+This notice explains how we use any personal information we collect about you when you use this website. The site, `Natural Resources Wales Metadata <https://metadata.naturalresources.wales/geonetwork/srv>`__, is provided by the `Natural Resources Wales <https://naturalresources.wales/>`__ (the *data controller*), however, we use a third party, `Astun Technology <https://astuntechnology.com/>`__, for the hosting and management of the metadata catalogue (the *data processor*).
 
 This privacy notice is kept under regular review and any updates will appear on this page. This notice was last updated on **October 9th, 2026**.
 
