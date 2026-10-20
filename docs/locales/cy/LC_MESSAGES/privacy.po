@@ -82,16 +82,68 @@ msgstr ""
 "`polisi preifatrwydd metadata <https://www.astuntechnology.com/privacy-policy/privacy-policy-metadata/>`__. "
 "Nid yw Astun Technology yn cadw, yn rhannu, yn storio nac yn defnyddio'r wybodaeth hon at unrhyw ddibenion eilaidd."
 
-#: ../../privacy.rst:20
+#: ../../privacy.rst:19
 msgid ""
 "We will not share your information with other organisations for "
 "commercial purposes and we won't pass on your details to other parties, "
 "unless required to do so by law."
 msgstr ""
+"Ni fyddwn yn rhannu eich gwybodaeth â sefydliadau eraill at ddibenion masnachol ac "
+"ni fyddwn yn trosglwyddo eich manylion i bartïon eraill, oni bai bod angen gwneud hynny yn unol â’r gyfraith."
 
-#: ../../privacy.rst:24
+#: ../../privacy.rst:22
+msgid "How we use Cookies"
+msgstr "Sut rydym yn defnyddio Cwcis"
+
+#: ../../privacy.rst:25
+msgid "We only use cookies that are strictly necessary for the operation and security of this website.  No analytics, advertising, or marketing cookies are used."
+msgstr "Rydym ond yn defnyddio cwcis sy'n gwbl angenrheidiol ar gyfer gweithrediad a diogelwch y wefan hon.  Nid oes unrhyw gwcis dadansoddeg, hysbysebu na marchnata yn cael eu defnyddio"
+
+#: ../../privacy.rst:26
+msgid "Necessary cookies help make a website usable by enabling core functions, such as maintaining your session and protecting against security threats. The website cannot function properly without these cookies."
+msgstr "Mae cwcis angenrheidiol yn helpu pobl i allu defnyddio gwefan drwy alluogi swyddogaethau craidd, fel cynnal eich sesiwn ac amddiffyn rhag bygythiadau diogelwch. Ni all y wefan weithio'n iawn heb y cwcis hyn."
+
+#: ../../privacy.rst:27
+msgid "Because these cookies are strictly necessary for the operation and security of the service, they do not require consent under the Privacy and Electronic Communications Regulations (PECR)."
+msgstr "Gan fod y cwcis hyn yn gwbl angenrheidiol ar gyfer gweithrediad a diogelwch y gwasanaeth, nid oes angen caniatâd arnynt o dan y Rheoliadau Preifatrwydd a Chyfathrebiadau Electronig (PECR)."
+
+#: ../../privacy.rst:28
+msgid "The essential cookies we use are as follows:"
+msgstr "Dyma’r cwcis hanfodol rydym yn eu defnyddio:"
+
+msgid "Cookie Name"
+msgstr "Enw’r Cwci"
+
+msgid "Purpose"
+msgstr "Pwrpas"
+
+msgid "JSESSIONID"
+msgstr "JSESSIONID"
+
+msgid "maintains the user's session"
+msgstr "yn cynnal sesiwn y defnyddiwr"
+
+msgid "XSRF-TOKEN"
+msgstr "XSRF-TOKEN"
+
+msgid "provides protection against malicious requests"
+msgstr "yn amddiffyn rhag ceisiadau maleisus"
+
+msgid "sessionExpiry"
+msgstr "sessionExpiry"
+
+msgid "manages session timing"
+msgstr "yn rheoli amseriad sesiynau"
+
+msgid "serverTime"
+msgstr "serverTime"
+
+msgid "supports session timeout calculations"
+msgstr "yn cefnogi cyfrifiadau dod â sesiynau i ben"
+
+#: ../../privacy.rst:39
 msgid "Access to your information"
-msgstr ""
+msgstr "Mynediad at eich gwybodaeth"
 
 #: ../../privacy.rst:26
 #, python-format
