@@ -47,24 +47,25 @@ msgid ""
 "This privacy notice is kept under regular review and any updates will "
 "appear on this page. This notice was last updated on **October 9th, 2026**."
 msgstr ""
+"Mae'r hysbysiad preifatrwydd hwn yn cael ei adolygu'n rheolaidd a bydd unrhyw ddiweddariadau "
+"yn ymddangos ar y dudalen hon. Diweddarwyd yr hysbysiad hwn ddiwethaf ar **9 Hydref 2026**."
 
-#: ../../privacy.rst:9
+#: ../../privacy.rst:8
 msgid "What is collected and how is it used?"
-msgstr ""
+msgstr "Beth sy'n cael ei gasglu a sut mae'n cael ei ddefnyddio?"
 
 #: ../../privacy.rst:11
-msgid ""
-"When you browse the site, your **IP address** is collected and `cookies "
-"<https://cookies.insites.com/>`__ are used to monitor your session. "
-"Additionally, if you register as a contributor to the site you will be "
-"required to provide your **email address**. This information is used "
-"purely for the purposes of maintaining the portal, improving it based on "
-"how you use it, and notifying contributors of any changes or service "
-"interruptions. The information can be viewed by authorised people in the "
-"Natural Resources Wales."
+msgid"" 
+"When you browse the site, your **IP address** is collected and `cookies <https://www.cookiesandyou.com/>`__ "
+"are used to monitor your session. This information is used purely for the purposes of "
+"maintaining the portal, improving it based on how you use it, and notifying contributors of any changes or service interruptions. The information can "
+"be viewed by authorised people in the Natural Resources Wales."
 msgstr ""
+"Pan fyddwch yn pori'r wefan, bydd eich **cyfeiriad IP** yn cael ei gasglu a defnyddir `cwcis <https://www.cookiesandyou.com/>`__ i fonitro eich sesiwn. "
+"Defnyddir yr wybodaeth hon at ddibenion cynnal y porth, ei wella yn seiliedig ar sut rydych yn ei ddefnyddio, a "
+"hysbysu cyfranwyr am unrhyw newidiadau neu ymyrraeth yn y gwasanaeth. Gall pobl awdurdodedig yng Nghyfoeth Naturiol Cymru weld yr wybodaeth."
 
-#: ../../privacy.rst:16
+#: ../../privacy.rst:15
 msgid ""
 "As noted above, we use a third party, `Astun Technology "
 "<https://astuntechnology.com/>`__, for the hosting and management of the "
@@ -74,6 +75,12 @@ msgid ""
 "metadata/>`__. Astun Technology does not retain, share, store or use this"
 " information for any secondary purposes."
 msgstr ""
+"Fel y nodir uchod, rydym yn defnyddio trydydd parti, `Astun Technology "
+"<https://astuntechnology.com/>`__, i gynnal a rheoli'r catalog metadata. "
+"I weld rhagor o fanylion am yr hyn sy'n cael ei "
+"gasglu ar y wefan a sut mae'n cael ei ddefnyddio, gweler y "
+"`polisi preifatrwydd metadata <https://www.astuntechnology.com/privacy-policy/privacy-policy-metadata/>`__. "
+"Nid yw Astun Technology yn cadw, yn rhannu, yn storio nac yn defnyddio'r wybodaeth hon at unrhyw ddibenion eilaidd."
 
 #: ../../privacy.rst:20
 msgid ""
