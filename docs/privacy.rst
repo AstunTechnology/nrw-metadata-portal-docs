@@ -8,8 +8,7 @@ This privacy notice is kept under regular review and any updates will appear on 
 What is collected and how is it used?
 -------------------------------------
 
-When you browse the site, your **IP address** is collected and `cookies <https://cookies.insites.com/>`__ are used to monitor your session. Additionally,
-if you register as a contributor to the site you will be required to provide your **email address**. This information is used purely for the purposes of
+When you browse the site, your **IP address** is collected and `cookies <https://www.cookiesandyou.com/>`__ are used to monitor your session. This information is used purely for the purposes of
 maintaining the portal, improving it based on how you use it, and notifying contributors of any changes or service interruptions. The information can
 be viewed by authorised people in the Natural Resources Wales.
 
@@ -20,6 +19,23 @@ Astun Technology does not retain, share, store or use this information for any s
 We will not share your information with other organisations for commercial purposes and we won't pass on your details to other parties, unless required
 to do so by law.
 
+How we use Cookies
+------------------
+
+We only use cookies that are strictly necessary for the operation and security of this website.  No analytics, advertising, or marketing cookies are used. 
+Necessary cookies help make a website usable by enabling core functions, such as maintaining your session and protecting against security threats. The website cannot function properly without these cookies. 
+Because these cookies are strictly necessary for the operation and security of the service, they do not require consent under the Privacy and Electronic Communications Regulations (PECR).
+The essential cookies we use are as follows:
+
+===============  ==================================================
+Cookie Name      Purpose    
+===============  ==================================================
+JSESSIONID       maintains the user's session
+XSRF-TOKEN       provides protection against malicious requests
+sessionExpiry    manages session timing
+serverTime       supports session timeout calculations
+===============  ==================================================
+
 Access to your information
 --------------------------
 
@@ -27,7 +43,7 @@ You are entitled to view, amend, or delete the personal information that we hold
 the information we hold about you, please `contact us <mailto:opendata@cyfoethnaturiolcymru.gov.uk?subject=Data%20Discovery%20Enquiry>`__.
 
 Be aware that most modern web browsers allow users to control cookies through the browser settings. To find out more about cookies, including how to
-see what cookies have been set and how to manage and delete them, visit `www.aboutcookies.org <https://www.aboutcookies.org/>`__ or `cookies.insites.com <https://cookies.insites.com/>`__.
+see what cookies have been set and how to manage and delete them, visit `aboutcookies.org <https://www.aboutcookies.org/>`__ or `cookiesandyou.com <https://www.cookiesandyou.com/>`__.
 
 Contact us
 ----------
