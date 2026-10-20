@@ -21,9 +21,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
 
-#: ../../privacy.rst:2
+#: ../../privacy.rst:1
 msgid "Privacy on the Natural Resources Metadata catalogue"
-msgstr ""
+msgstr "Preifatrwydd ar gatalog Metadata Adnoddau Naturiol"
 
 #: ../../privacy.rst:4
 msgid ""
