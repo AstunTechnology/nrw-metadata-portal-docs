@@ -35,6 +35,12 @@ msgid ""
 "<https://astuntechnology.com/>`__, for the hosting and management of the "
 "metadata catalogue (the *data processor*)."
 msgstr ""
+"Mae'r hysbysiad hwn yn esbonio sut rydym yn defnyddio unrhyw wybodaeth bersonol " 
+"rydym yn ei chasglu amdanoch pan fyddwch yn defnyddio'r wefan hon. Darperir y safle, " 
+"`Metadata Cyfoeth Naturiol Cymru Metadata <https://metadata.naturalresources.wales/>`__, "
+"gan `Gyfoeth Naturiol Cymru <https://naturalresources.wales/?lang=cy>`__ (*rheolwr y data*). "
+"Fodd bynnag, rydym yn defnyddio trydydd parti, `Astun Technology <https://astuntechnology.com/>`__, "
+" i gynnal a rheoli'r catalog metadata (*prosesydd y data*)."
 
 #: ../../privacy.rst:6
 msgid ""
