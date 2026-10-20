@@ -55,7 +55,7 @@ msgid "What is collected and how is it used?"
 msgstr "Beth sy'n cael ei gasglu a sut mae'n cael ei ddefnyddio?"
 
 #: ../../privacy.rst:11
-msgid""
+msgid ""
 "When you browse the site, your **IP address** is collected and `cookies <https://www.cookiesandyou.com/>`__ "
 "are used to monitor your session. This information is used purely for the purposes of "
 "maintaining the portal, improving it based on how you use it, and notifying contributors of any changes or service interruptions. The information can "
